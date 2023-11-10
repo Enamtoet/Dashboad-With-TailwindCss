@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+.page .sidebar h3::before{
+    content: "";
+    position: absolute;
+    width: calc(100% - 50%);
+    height: 1.5px;
+    background-color: black;
+    bottom: -15px;
+    left: 25%;
+}
+
+.page .sidebar h3::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid white;
+}
+.page ul li.active{
+    background-color: #f6f6f6;
+}
+
