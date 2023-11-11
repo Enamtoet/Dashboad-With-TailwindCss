@@ -2,23 +2,22 @@
 @tailwind components;
 @tailwind utilities;
  
-
-.page .sidebar h3::before{
-    content: "";
-    position: absolute;
-    width: calc(100% - 50%);
-    height: 1.5px;
-    background-color: black;
-    bottom: -15px;
-    left: 25%;
-}
-
+.page .sidebar h3::before,
 .page .sidebar h3::after{
     content: "";
     position: absolute;
+    background-color: black;
+
+}
+.page .sidebar h3::before{
+    width: calc(100% - 50%);
+    height: 1.5px;
+    bottom: -15px;
+    left: 25%;
+}
+.page .sidebar h3::after{
     width: 15px;
     height: 15px;
-    background-color: black;
     border-radius: 50%;
     bottom: -22px;
     left: 50%;
@@ -28,4 +27,5 @@
 .page ul li.active{
     background-color: #f6f6f6;
 }
+
 
