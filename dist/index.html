@@ -12,21 +12,77 @@
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-bgray">
-<div class="page container flex">
-    <div class="sidebar p-3 w-16 absolute h-full custom-box-shadow bg-white md:w-56 md:p-5">
-        <h3 class=" before:hidden after:hidden font-bold text-xs p-1 relative text-center mt-0 md:text-base md:before:block md:after:block">OTY</h3>
+<div class="page flex justify-between">
+    <!-- Start Sidebar  -->
+    <div class="sidebar p-3 w-16 h-screen custom-box-shadow bg-white md:w-56 md:p-5">
+        <h3 class=" before:hidden after:hidden font-bold text-sm p-1 relative text-center mt-0 md:text-2xl md:before:block md:after:block">OTY</h3>
         <ul class=" mt-8 md:mt-12 ">
-            <li class="active flex justify-center items-center text-sm px-2 py-4   rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start"><a href="index.html"><i class="fa-solid fa-chart-bar fa-fw md:mr-3"></i><span class="hidden md:inline-block">Dashborad</span></a></li>
-            <li class="flex justify-center items-center text-sm  px-2 py-4  rounded-lg mb-2 transition duration-300 hover:hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start"><a href=""><i class="fa-solid fa-gear fa-fw md:mr-3"></i><span class="hidden md:inline-block" >Settings</span></a></li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start"><a href=""><i class="fa-regular fa-user fa-fw md:mr-3"></i><span class="hidden md:inline-block">Profil</span></a></li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start"><a href=""><i class="fa-solid fa-diagram-project fa-fw md:mr-3"></i><span class="hidden md:inline-block">Projects</span></a></li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start"><a href=""><i class="fa-solid fa-graduation-cap fa-fw md:mr-3"></i><span class="hidden md:inline-block">Courses</span></a></li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start"><a href=""><i class="fa-regular fa-circle-user fa-fw md:mr-3"></i><span class="hidden md:inline-block">Friends</span></a></li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start"><a href=""><i class="fa-regular fa-file fa-fw md:mr-3"></i><span class="hidden md:inline-block">Files</span></a></li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start"><a href=""><i class="fa-regular fa-credit-card fa-fw md:mr-3"></i><span class="hidden md:inline-block">Plans</span></a></li>
+            <li class="active flex justify-center items-center text-sm px-2 py-4   rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                <a href="index.html">
+                    <i class="fa-solid fa-chart-bar fa-fw md:mr-3"></i>
+                    <span class="hidden md:inline-block">Dashborad</span>
+                </a>
+            </li>
+            <li class="flex justify-center items-center text-sm  px-2 py-4  rounded-lg mb-2 transition duration-300 hover:hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                <a href="">
+                    <i class="fa-solid fa-gear fa-fw md:mr-3"></i>
+                    <span class="hidden md:inline-block" >Settings</span>
+                </a>
+            </li>
+            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                <a href="">
+                    <i class="fa-regular fa-user fa-fw md:mr-3"></i>
+                    <span class="hidden md:inline-block">Profil</span>
+                </a>
+            </li>
+            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                <a href="">
+                    <i class="fa-solid fa-diagram-project fa-fw md:mr-3"></i>
+                    <span class="hidden md:inline-block">Projects</span>
+                </a>
+            </li>
+            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                <a href="">
+                    <i class="fa-solid fa-graduation-cap fa-fw md:mr-3">
+
+                    </i><span class="hidden md:inline-block">Courses</span>
+                </a>
+            </li>
+            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                <a href="">
+                    <i class="fa-regular fa-circle-user fa-fw md:mr-3"></i>
+                    <span class="hidden md:inline-block">Friends</span>
+                </a>
+            </li>
+            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                <a href="">
+                    <i class="fa-regular fa-file fa-fw md:mr-3"></i>
+                    <span class="hidden md:inline-block">Files</span>
+                </a>
+            </li>
+            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                <a href="">
+                    <i class="fa-regular fa-credit-card fa-fw md:mr-3"></i>
+                    <span class="hidden md:inline-block">Plans</span>
+                </a>
+            </li>
         </ul>
     </div>
-    <div class="content"></div>
+    <!-- End Sidebar  -->
+    <!-- Start Content  -->
+    <div class="content bg-white p-4 h-fit w flex justify-between flex-1">
+        <div class="search relative flex items-center">
+            <div class="text-gray-400 absolute px-2 ">
+                <i class="fa-solid fa-magnifying-glass "></i>
+            </div>
+            <input type="text" placeholder="Type A Keyword" class=" text-sm w-36 pl-8 py-2 border border-solid transition-all duration-300 border-gray-300 rounded-lg focus:outline-none focus:placeholder-white focus:w-52">
+        </div>
+        <div class="icons flex items-center">
+            <i class="fa-regular fa-bell text-xl mr-4"></i>
+            <img src="img/avatar.png" class="w-8" alt="">
+        </div>
+    </div>
+    <!-- End Content  -->
 </div>
 </body>
 </html>
