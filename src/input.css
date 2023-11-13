@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
  
+/* Side Bar Title  */
 .page .sidebar h3::before,
 .page .sidebar h3::after{
     content: "";
     position: absolute;
     background-color: black;
-
 }
 .page .sidebar h3::before{
     width: calc(100% - 50%);
@@ -26,6 +26,14 @@
 }
 .page ul li.active{
     background-color: #f6f6f6;
+}
+/* Dashborad Title  */
+.page .content .dashbord h1:before,
+.page .content .dashbord h1:after{
+    content:"";
+    position: absolute;
+    height: 3px;
+    bottom: -15px;
 }
 
 
