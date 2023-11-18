@@ -51,7 +51,7 @@
 
 /* Yearly Targets  */
 .targets .stat > div::before{
-    content:"80%";
+    
     color: white;
     font-size: 13px;
     position: absolute;
@@ -72,6 +72,7 @@
     top: -15px;
 }
 .targets .stat > .progress1::before{
+    content:"80%";
     background-color:#0075ff;
     left: 75%;
 }
@@ -81,6 +82,7 @@
 
 }
 .targets .stat > .progress2::before{
+    content:"60%";
     background-color:#f59e0b;
     left: 55%;
 }
@@ -90,6 +92,7 @@
 
 }
 .targets .stat > .progress3::before{
+    content:"40%";
     background-color:#22c55e;
     left: 35%;
 }
