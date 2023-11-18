@@ -49,4 +49,54 @@
     bottom: -10px;
 }
 
+/* Yearly Targets  */
+.targets .stat > div::before{
+    content:"80%";
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 5px;
+    width: 20x;
+    height: 20px;
+    top: -35px;
+    border-radius: 6px;
+}
+.targets .stat > div::after{
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    top: -15px;
+}
+.targets .stat > .progress1::before{
+    background-color:#0075ff;
+    left: 75%;
+}
+.targets .stat > .progress1::after{
+    left: calc(75% + 14px );
+    border-color: #0075ff transparent transparent transparent;
+
+}
+.targets .stat > .progress2::before{
+    background-color:#f59e0b;
+    left: 55%;
+}
+.targets .stat > .progress2::after{
+    left: calc(55% + 14px );
+    border-color: #f59e0b transparent transparent transparent;
+
+}
+.targets .stat > .progress3::before{
+    background-color:#22c55e;
+    left: 35%;
+}
+.targets .stat > .progress3::after{
+    border-color: #22c55e transparent transparent transparent;
+    left: calc(35% + 14px );
+
+}
+
 

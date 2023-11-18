@@ -90,11 +90,12 @@
             <h1 class="relative font-semibold text-4xl before:bg-white before:w-2/3 after:bg-black after:w-2/6 after:left-0">Dashbord</h1> 
         </div>
         <div class="wrapper grid gap-4 lg:grid-cols-2">
+            <!-- Start Welcome  -->
             <div class="welcome bg-white rounded-2xl overflow-hidden">
                 <div class=" bg-bGray pb-9 flex justify-center md:justify-between p-4 md:pb-5">
                     <div class="text-center md:text-left">
                         <h2 class="font-bold text-2xl">Welcome</h2>
-                        <span class="text-greyColor mt-6">OTMAN</span>
+                        <span class="text-greyColor my-7">OTMAN</span>
                     </div>
                     <img src="img/welcome.png" alt="" class="hidden w-48 md:block">
                 </div>
@@ -117,16 +118,62 @@
                 </div>
                 <a href="profile.html" class=" block w-fit bg-blueColor text-white text-sm py-1 px-3 rounded-lg mb-8 ml-auto mr-4 md:mb-7 hover:bg-blueAltColor">Profile</a>
             </div>
-            <div class="Quick-draft  bg-white rounded-2xl p-4">
+            <!-- End Welcome  -->
+            <!-- Start Quick-draft  -->
+            <div class="quick-draft  bg-white rounded-2xl p-4">
                 <h2 class="font-bold text-2xl">Quick Draft</h2>
-                <span class=" block text-greyColor my-4 text-base">Write A Drift For Your Ideas</span>
+                <span class=" block text-greyColor mt-2 mb-4 text-base">Write A Drift For Your Ideas</span>
                 <input type="text" placeholder="Title" class="placeholder-greyColor text-xs bg-bGray py-3 px-3 w-full rounded-lg mb-5 focus:outline-none focus:placeholder-transparent">
                 <textarea name="" placeholder="Write Your Thought" class="w-full placeholder-greyColor text-xs bg-bGray py-3 px-3 rounded-lg h-32 resize-none focus:outline-none focus:placeholder-transparent"></textarea>
                 <a href="#" class=" block w-fit bg-blueColor text-white text-sm py-1 px-3 rounded-lg mb-8 mt-3 ml-auto mr-4 md:mb-7 hover:bg-blueAltColor">Save</a>
-
-
             </div>
-            <div>3</div>
+            <!-- Start Quick-draft  -->
+            <!-- Start Yearly Target  -->
+            <div class="targets  bg-white rounded-2xl p-4">
+                <h2 class="font-bold text-2xl">Yearly Targets</h2>
+                <span class=" block text-greyColor mt-2 mb-4 text-sm">Targets Of The Year</span>
+                <!-- Money  -->
+               <div class="money flex items-end mb-4">
+                    <div class="bg-blue-200 w-16 h-16 flex items-center justify-center ">
+                        <i class="fa-solid fa-dollar-sign text-blueColor text-xl"></i>
+                    </div>
+                    <div class="stat flex-1 ml-4">
+                        <span class="text-greyColor">Money</span>
+                        <h3 class="font-bold mb-3">$20.000</h3>
+                        <div class="progress1 relative h-1 w-full bg-blue-200">
+                            <span style="width: 80%;" class=" block bg-blueColor h-full"></span>
+                        </div>
+                    </div>
+               </div>
+                <!-- Project  -->
+               <div class="project flex items-end mb-4">
+                    <div class="bg-orange-200 w-16 h-16 flex items-center justify-center ">
+                        <i class="fa-solid fa-code text-orangeColor text-xl"></i>
+                    </div>
+                    <div class="stat flex-1 ml-4">
+                        <span class="text-greyColor">Projects</span>
+                        <h3 class="font-bold mb-3">24</h3>
+                        <div class="progress2 relative h-1 w-full bg-orange-200">
+                            <span style="width: 60%;" class=" block bg-orangeColor h-full"></span>
+                        </div>
+                    </div>
+               </div>
+                <!-- Team  -->
+                <div class="team flex items-end mb-4">
+                    <div class="bg-green-200 w-16 h-16 flex items-center justify-center ">
+                        <i class="fa-solid fa-user text-greenColor "></i>
+                    </div>
+                    <div class="stat flex-1 ml-4">
+                        <span class="text-greyColor">Team</span>
+                        <h3 class="font-bold mb-3">12</h3>
+                        <div class="progress3 relative h-1 w-full bg-green-200">
+                            <span style="width: 40%;" class=" block bg-greenColor h-full"></span>
+                        </div>
+                    </div>
+               </div>
+            </div>
+             <!-- Start Yearly Target  -->
+
             <div>4</div>
             <div>5</div>
             <div>6</div>
