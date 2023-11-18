@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-bgray">
+<body class="bg-bgray font-cairo">
 <div class="page flex justify-between">
     <!-- Start Sidebar  -->
     <div class="sidebar p-3 w-16 h-screen custom-box-shadow bg-white md:w-56 md:p-5">
@@ -42,7 +42,7 @@
                 </a>
             </li>
             <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="">
+                <a href="#">
                     <i class="fa-solid fa-graduation-cap fa-fw md:mr-3">
 
                     </i><span class="hidden md:inline-block">Courses</span>
@@ -77,18 +77,59 @@
                 <div class="text-gray-400 absolute px-2 ">
                     <i class="fa-solid fa-magnifying-glass "></i>
                 </div>
-                <input type="text" placeholder="Type A Keyword" class=" text-sm w-36 pl-8 py-2 border border-solid transition-all duration-300 border-gray-300 rounded-lg focus:outline-none focus:placeholder-white focus:w-52">
+                <input type="text" placeholder="Type A Keyword" class=" text-sm w-36 pl-8 py-2 border border-solid transition-all duration-300 border-gray-300 rounded-lg focus:outline-none focus:placeholder-transparent focus:w-52">
             </div>
             <div class="icons flex items-center">
-                <i class="fa-regular fa-bell text-xl mr-4"></i>
+                <i class="fa-regular fa-bell text-xl fa-lg mr-4 cursor-pointer"></i>
                 <img src="img/avatar.png" class="w-8" alt="">
             </div>
         </div>
         <!-- Dashborad  -->
-        <div class=" dashbord p-6 w-fit">
-            <h1 class=" relative font-bold text-4xl before:bg-white before:w-2/3 after:bg-black after:w-2/6 after:left-0">Dashbord</h1>
-            </div>
+       <div class="p-5">
+        <div class="pl-0 py-3 mb-5 w-fit">
+            <h1 class="relative font-semibold text-4xl before:bg-white before:w-2/3 after:bg-black after:w-2/6 after:left-0">Dashbord</h1> 
         </div>
+        <div class="wrapper grid gap-4 lg:md:grid-cols-2">
+            <div class="welcome bg-white rounded-2xl">
+                <div class=" bg-bGray flex justify-center rounded-t-2xl md:justify-between p-4 pb-6">
+                    <div class="text-center md:text-left">
+                        <h2 class="font-bold text-2xl font-cairo">Welcome</h2>
+                        <span class="text-gray-500 mt-3">OTMAN</span>
+                    </div>
+                    <img src="img/welcome.png" alt="" class="hidden w-52 md:block">
+                </div>
+                <div class="relative">
+                    <img  src="img/avatar.png" alt="" class="absolute left-1/2 transform -translate-x-1/2 -top-5 w-14 border-4 border-solid border-white rounded-full md:left-12">
+                </div>
+                <div class="info flex justify-evenly mt-16 mb-10 px-7 py-5 border-t border-b border-solid border-bGray">
+                    <div>
+                        <h3 class="font-semibold mb-3">OTMAN ET</h3>
+                        <span class="text-gray-400">Developer</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-3">80</h3>
+                        <span class="text-gray-400">Projects</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-3">$8500</h3>
+                        <span class="text-gray-400">Earned</span>
+                    </div>
+                </div>
+                <a href="#" class=" block w-fit bg-blueColor text-white py-2 px-3 rounded-lg mb-5 ml-auto mr-4 hover:bg-blueAltColor">Profile</a>
+            </div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+       </div>
    </div>
     <!-- End Content  -->
 </div>

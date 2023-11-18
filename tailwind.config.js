@@ -3,17 +3,18 @@ module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
     extend: {
-      // // Add Screen Sizes
-      // screens: {
-      //   'sm': '768px',   // Small screens
-      //   'md': '992px',   // Medium screens
-      //   'lg': '1200px',  // Large screens
-      //   'xl': '1440px',  // Extra-large screens
-      // },
+    
       // Add Colors 
       colors:{
         bgray:"#f1f9f5",
-        backgroundColor: "#f6f6f6"
+        backgroundColor: "#f6f6f6",
+        bGray:"#eee",
+        blueColor: "#0075ff",
+        blueAltColor: "#0d69d5",
+        orangeColor: "#f59e0b",
+        greenColor: "#22c55e",
+        redColor: "#f44336",
+        greyColor: "#888",
       },
       // Add Fonts 
       fontFamily:{

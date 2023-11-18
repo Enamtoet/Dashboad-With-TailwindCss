@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
  
+/* Scroll bar  */
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0075ff
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #0d69d5
+}
 /* Side Bar Title  */
 .page .sidebar h3::before,
 .page .sidebar h3::after{
@@ -28,12 +41,12 @@
     background-color: #f6f6f6;
 }
 /* Dashborad Title  */
-.page .content .dashbord h1:before,
-.page .content .dashbord h1:after{
+.page .content h1:before,
+.page .content  h1:after{
     content:"";
     position: absolute;
     height: 3px;
-    bottom: -15px;
+    bottom: -10px;
 }
 
 
