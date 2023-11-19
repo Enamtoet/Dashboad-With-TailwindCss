@@ -15,6 +15,14 @@ module.exports = {
         greenColor: "#22c55e",
         redColor: "#f44336",
         greyColor: "#888",
+        twitter: "#1da1f2",
+        twitterAlt:"rgb(29 161 242 / 20%)",
+        facebook:"#1877f2",
+        facebookAlt:"rgb(24 119 242 / 20%)",
+        youtube:"#ff0000",
+        youtubeAlt:"rgb(255 0 0 / 20%)",
+        linkdin:"#0077b5",
+        linkdinAlt:"rgb(0 119 181 / 20%)"
       },
       // Add Fonts 
       fontFamily:{
