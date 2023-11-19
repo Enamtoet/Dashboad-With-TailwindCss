@@ -89,7 +89,7 @@
         <div class="pl-0 py-3 mb-5 w-fit">
             <h1 class="relative font-semibold text-4xl before:bg-white before:w-2/3 after:bg-black after:w-2/6 after:left-0">Dashbord</h1> 
         </div>
-        <div class="wrapper grid gap-4 lg:grid-cols-2">
+        <div class="wrapper grid gap-4 xl:grid-cols-2">
             <!-- Start Welcome  -->
             <div class="welcome bg-white rounded-2xl overflow-hidden">
                 <div class=" bg-bGray pb-9 flex justify-center md:justify-between p-4 md:pb-5">
@@ -123,9 +123,11 @@
             <div class="quick-draft  bg-white rounded-2xl p-4">
                 <h2 class="font-bold text-2xl">Quick Draft</h2>
                 <span class=" block text-greyColor mt-2 mb-4 text-base">Write A Drift For Your Ideas</span>
+               <form action="action">
                 <input type="text" placeholder="Title" class="placeholder-greyColor text-xs bg-bGray py-3 px-3 w-full rounded-lg mb-5 focus:outline-none focus:placeholder-transparent">
-                <textarea name="" placeholder="Write Your Thought" class="w-full placeholder-greyColor text-xs bg-bGray py-3 px-3 rounded-lg h-32 resize-none focus:outline-none focus:placeholder-transparent"></textarea>
-                <a href="#" class=" block w-fit bg-blueColor text-white text-sm py-1 px-3 rounded-lg mb-8 mt-3 ml-auto mr-4 md:mb-7 hover:bg-blueAltColor">Save</a>
+                <textarea  placeholder="Write Your Thought"  class="w-full placeholder-greyColor text-xs bg-bGray py-3 px-3 rounded-lg h-32 resize-none focus:outline-none focus:placeholder-transparent"></textarea>
+                <input type="submit" value="Save" class="block bg-blueColor text-white text-sm py-1 px-3 rounded-lg mt-3 ml-auto mr-4 cursor-pointer md:mb-7 hover:bg-blueAltColor">
+               </form>
             </div>
             <!-- Start Quick-draft  -->
             <!-- Start Yearly Target  -->
@@ -206,66 +208,51 @@
                  <div class="targets  bg-white rounded-2xl p-4">
                     <h2 class="font-bold text-2xl">Latest News</h2>
                     <!-- News 1 -->
-                        <div class="py-5 border-b border-solid border-gray-300 flex flex-col justify-between md:flex-row  md:items-center">
-                            <div class="image-text flex flex-col items-center space-y-3 text-center md:flex-row md:space-y-0 space-x-3">
-                                <div class="mx-auto md:mx-0">
-                                    <img src="img/news-01.png" class="w-24 rounded-lg" alt="">
+                            <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
+                                <img src="img/news-01.png" class="w-24 rounded-lg md:mr-5" alt="">
+                                <div class="flex-1">
+                                    <h3 class="font-bold text-lg text-left">Created SASS Section</h3>
+                                    <p class="text-greyColor text-xs font-semibold">New SASS Examples & Tutorials</p>
                                 </div>
-                               <div>
-                                <h3 class="font-bold text-lg text-left">Created SASS Section</h3>
-                                <p class="text-greyColor text-xs font-semibold">New SASS Examples & Tutorials</p>
-                               </div>
-                            </div>
-                            <div class="w-fit mx-auto bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0">
-                                3 Days Ago
-                            </div>
-                        </div>
+                                <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
+                                    3 Days Ago
+                                </div>
+                             </div>
                     <!-- News 2 -->
-                        <div class="py-5 border-b border-solid border-gray-300 flex flex-col justify-between md:flex-row  md:items-center">
-                            <div class="image-text flex flex-col items-center space-y-3 text-center  md:flex-row md:space-y-0 space-x-3">
-                                <div class="mx-auto md:mx-0">
-                                    <img src="img/news-02.png" class="w-24 rounded-lg" alt="">
-                                </div>
-                               <div>
-                                <h3 class="font-bold text-lg text-left">Changed The Design</h3>
-                                <p class="text-greyColor text-xs font-semibold">A Brand New Website Design</p>
-                               </div>
-                            </div>
-                            <div class="w-fit mx-auto bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0">
-                                5 Days Ago
-                            </div>
+                    <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
+                        <img src="img/news-02.png" class="w-24 rounded-lg md:mr-5" alt="">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg text-left">Changed The Design</h3>
+                            <p class="text-greyColor text-xs font-semibold">A Brand New Website Design</p>
                         </div>
+                        <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
+                            5 Days Ago
+                        </div>
+                     </div>
                     <!-- News 3 -->
-                        <div class=" py-5 border-b border-solid border-gray-300 flex flex-col justify-between items-center md:flex-row">
-                            <div class="image-text flex flex-col items-center space-y-3 text-center  md:flex-row md:space-y-0 space-x-3">
-                                <div class="mx-auto md:mx-0">
-                                    <img src="img/news-03.png" class="w-24 rounded-lg" alt="">
-                                </div>
-                               <div>
-                                <h3 class="font-bold text-lg text-left">Team Increased</h3>
-                                <p class="text-greyColor text-xs font-semibold">3 Developers Joined The Team</p>
-                               </div>
-                            </div>
-                            <div class="w-fit mx-auto bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0">
-                                2 Days Ago
-                            </div>
+                    <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
+                        <img src="img/news-03.png" class="w-24 rounded-lg md:mr-5" alt="">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg text-left">Team Increased</h3>
+                            <p class="text-greyColor text-xs font-semibold">3 Developers Joined The Team</p>
                         </div>
+                        <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
+                            7 Days Ago
+                        </div>
+                     </div>
                     
                     <!-- News 4 -->
-                        <div class="py-5 flex flex-col justify-between md:flex-row  md:items-center">
-                            <div class="image-text flex flex-col items-center space-y-3 text-center md:flex-row md:space-y-0 space-x-3">
-                                <div class="mx-auto md:mx-0">
-                                    <img src="img/news-04.png" class="w-24 rounded-lg" alt="">
-                                </div>
-                               <div>
-                                <h3 class="font-bold text-lg text-left">Added Payment Gateway</h3>
-                                <p class="text-greyColor text-xs font-semibold">Many New Payment Gateways Added</p>
-                               </div>
-                            </div>
-                            <div class="w-fit mx-auto bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0">
-                                8 Days Ago
-                            </div>
+                    <div class=" py-5 flex flex-col items-center md:flex-row ">
+                        <img src="img/news-04.png" class="w-24 rounded-lg md:mr-5" alt="">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg text-left">Added Payment Gateway</h3>
+                            <p class="text-greyColor text-xs font-semibold">Many New Payment Gateways Added</p>
                         </div>
+                        <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
+                            9 Days Ago
+                        </div>
+                     </div>
+                     
                 </div>
               <!-- End Latest News -->
             </div>

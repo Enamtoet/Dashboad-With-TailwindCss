@@ -18,7 +18,7 @@ module.exports = {
       },
       // Add Fonts 
       fontFamily:{
-        cairo:['Open Sans', 'Cairo', "sans-serif"]
+        cairo:['Open Sans', "sans-serif"]
       }
     },
   },
