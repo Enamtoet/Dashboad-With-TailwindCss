@@ -14,7 +14,7 @@
 <body class="bg-bgray font-cairo">
 <div class="page flex justify-between">
     <!-- Start Sidebar  -->
-    <div class="sidebar p-3 w-16 h-screen custom-box-shadow bg-white md:w-56 md:p-5">
+    <div class="sidebar p-3 w-16 custom-box-shadow bg-white md:w-56 md:p-5">
         <h3 class=" before:hidden after:hidden font-bold text-sm p-1 relative text-center mt-0 md:text-2xl md:before:block md:after:block">OTY</h3>
         <ul class=" mt-8 md:mt-12 ">
             <li class="active flex justify-center items-center text-sm px-2 py-4   rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
@@ -203,15 +203,14 @@
                 </div>
             </div>
              <!-- End Tickets Statistics -->
-            <div>
-                 <!-- Start Latest News -->
+            <!-- Start Latest News -->
                  <div class="targets  bg-white rounded-2xl p-4">
                     <h2 class="font-bold text-2xl">Latest News</h2>
                     <!-- News 1 -->
                             <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
                                 <img src="img/news-01.png" class="w-24 rounded-lg md:mr-5" alt="">
                                 <div class="flex-1">
-                                    <h3 class="font-bold text-lg text-left">Created SASS Section</h3>
+                                    <h3 class="font-bold text-lg text-center md:text-left">Created SASS Section</h3>
                                     <p class="text-greyColor text-xs font-semibold">New SASS Examples & Tutorials</p>
                                 </div>
                                 <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
@@ -222,7 +221,7 @@
                     <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
                         <img src="img/news-02.png" class="w-24 rounded-lg md:mr-5" alt="">
                         <div class="flex-1">
-                            <h3 class="font-bold text-lg text-left">Changed The Design</h3>
+                            <h3 class="font-bold text-lg text-center md:text-left">Changed The Design</h3>
                             <p class="text-greyColor text-xs font-semibold">A Brand New Website Design</p>
                         </div>
                         <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
@@ -230,10 +229,10 @@
                         </div>
                      </div>
                     <!-- News 3 -->
-                    <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
+                    <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center t md:flex-row ">
                         <img src="img/news-03.png" class="w-24 rounded-lg md:mr-5" alt="">
-                        <div class="flex-1">
-                            <h3 class="font-bold text-lg text-left">Team Increased</h3>
+                        <div class="flex-1 text-center md:text-left">
+                            <h3 class="font-bold text-lg ">Team Increased</h3>
                             <p class="text-greyColor text-xs font-semibold">3 Developers Joined The Team</p>
                         </div>
                         <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
@@ -242,10 +241,10 @@
                      </div>
                     
                     <!-- News 4 -->
-                    <div class=" py-5 flex flex-col items-center md:flex-row ">
+                    <div class=" pt-5 flex flex-col items-center md:flex-row ">
                         <img src="img/news-04.png" class="w-24 rounded-lg md:mr-5" alt="">
                         <div class="flex-1">
-                            <h3 class="font-bold text-lg text-left">Added Payment Gateway</h3>
+                            <h3 class="font-bold text-lg text-center md:text-left">Added Payment Gateway</h3>
                             <p class="text-greyColor text-xs font-semibold">Many New Payment Gateways Added</p>
                         </div>
                         <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
@@ -254,9 +253,47 @@
                      </div>
                      
                 </div>
-              <!-- End Latest News -->
+            <!-- End Latest News -->
+            <!-- Start Latest Tasks -->
+            <div class="targets  bg-white rounded-2xl p-4">
+                <h2 class="font-bold text-2xl">Latest Tasks</h2>
+                <div class="flex items-center py-5 border-b border-gray-200 border-solid">
+                    <div class="flex-1">
+                        <h3 class="font-bold ">Record One New Video</h3>
+                        <p class="text-gray-500 text-xs">Record Python Create Exe Project</p>
+                    </div>
+                    <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="flex items-center py-5 border-b border-gray-200 border-solid">
+                    <div class="flex-1">
+                        <h3 class="font-bold ">Write Article</h3>
+                        <p class="text-gray-500 text-xs">Write Low Level vs High Level Languages</p>
+                    </div>
+                    <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="flex items-center py-5 border-b border-gray-200 border-solid">
+                    <div class="flex-1">
+                        <h3 class="font-bold ">Finish Project</h3>
+                        <p class="text-gray-500 text-xs">Publish Academy Programming Project</p>
+                    </div>
+                    <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="flex items-center py-5 border-b border-gray-200 border-solid">
+                    <div class="flex-1 line-through text-gray-300">
+                        <h3 class="font-bold text-gray-300">Attend The Meeting</h3>
+                        <p class="text-gray-300 text-xs">Attend The Project Business Analysis Meeting</p>
+                    </div>
+                    <i class="fa-regular fa-trash-can text-gray-300"></i>
+                </div>
+                <div class="flex items-center pt-5 ">
+                    <div class="flex-1">
+                        <h3 class="font-bold ">Finish Lesson</h3>
+                        <p class="text-gray-500 text-xs">Finish Teaching Flex Box</p>
+                    </div>
+                    <i class="fa-regular fa-trash-can"></i>
+                </div>
             </div>
-            <div>5</div>
+            <!-- End Latest Tasks -->
             <div>6</div>
             <div>7</div>
             <div>8</div>
