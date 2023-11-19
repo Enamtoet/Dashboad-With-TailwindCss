@@ -129,6 +129,25 @@ transition:0.3s;
 
 }
 /* End Last Project  */
+/* Start Reminders  */
+.reminders .info::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    width: 2px;
+    height: 100%;
+}
+.reminders .info::after{
+    content: "";
+    position: absolute;
+    left: -55px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* End Reminders  */
 /* Start Animation  */
 @keyframes change-color {
     from{
