@@ -93,7 +93,7 @@
                 <!--Start Dashborad  -->
                 <div class="wrapper grid gap-4 xl:grid-cols-2">
                     <!-- Start Site Control  -->
-                    <div class=" bg-white rounded-2xl p-4">
+                    <div class=" bg-white rounded-2xl p-6">
                         <h2 class="font-bold text-2xl">Site Control</h2>
                         <span class=" block text-greyColor mt-2 mb-4 text-sm">Control The Website If There Is Maintenance</span>
                         <div class="flex items-center justify-between">
@@ -102,7 +102,7 @@
                                 <span class="text-sm text-gray-400">Open/Close Website And Type The Reason</span>
                             </div>
                             <label>
-                                <input class="toggle-checkbox" type="checkbox">
+                                <input class="toggle-checkbox" type="checkbox" checked>
                                 <div class="toggle-switch"></div>
                             </label>
                         </div>
@@ -110,7 +110,7 @@
                     </div>
                     <!-- End Site Control  -->
                     <!-- Start General Info  -->
-                    <div class=" bg-white rounded-2xl p-4">
+                    <div class=" bg-white rounded-2xl p-6">
                         <h2 class="font-bold text-2xl">General Info</h2>
                         <span class="block text-greyColor mt-2 mb-4 text-sm">General Information About Your Account</span>
                         <form>
@@ -119,13 +119,83 @@
                             <label class="mb-3 block text-gray-600">Last Name</label>
                             <input class="mb-4 p-2 text-sm w-full outline-none border border-solid border-gray-300 rounded-lg focus:placeholder-transparent" type="text" placeholder="Last Name">
                              <label class="mb-3 block text-gray-600">Email</label>
-                             <input class="mb-4 mr-3 p-2 text-sm w-full outline-none border border-solid border-gray-300 rounded-lg md:w-5/6 focus:placeholder-transparent" type="Email" placeholder="name@gmail.com" disabled>
-                             <a href="" class="bg-blueColor text-white w-fit mx-auto block py-2 px-3 rounded-lg text-center md:mx-0 md:inline-block">Change</a>
-
-                        </form>
-                       
+                             <input class="mb-4  mr-2 p-2 text-sm w-full outline-none border border-solid border-gray-300 rounded-lg md:w-4/5 focus:placeholder-transparent" type="Email" placeholder="name@gmail.com" disabled>
+                             <a href="" class="bg-blueColor text-white text-sm w-fit mx-auto block py-1 px-2 rounded-lg text-center md:mx-0 md:inline-block">Change</a>
+                        </form>              
                     </div>
                     <!-- End General Info  -->
+                    <!-- Start Security Info  -->
+                    <div class=" bg-white rounded-2xl p-6">
+                        <h2 class="font-bold text-2xl">Security Info</h2>
+                        <span class="block text-greyColor mt-2 mb-4 text-sm">Security Information About Your Account</span>
+                        <div class="py-5 flex items-center justify-between border-b border-solid border-gray-300">
+                            <div>
+                                <h3 class="font-semibold">Password</h3>
+                                <span class="text-xs text-greyColor">Last Change On 25/10/201</span>
+                            </div>
+                            <div class="bg-blueColor text-sm text-white w-fit py-1 px-2 rounded-lg cursor-pointer hover:bg-blueAltColor">Change</div>
+                        </div>         
+                        <div class="py-5 flex items-center justify-between border-b border-solid border-gray-300">
+                            <div>
+                                <h3 class="font-semibold">Two-Factor Authentication</h3>
+                                <span class="text-xs text-greyColor">Enable/Disable The Feature</span>
+                            </div>
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div> 
+                        <div class="py-5 flex items-center justify-between">
+                            <div>
+                                <h3 class="font-semibold">Devices</h3>
+                                <span class="text-xs text-greyColor">Check The Login Devices List</span>
+                            </div>
+                            <div class="bg-gray-100 text-sm text-black w-fit py-1.5 px-1.5 rounded-lg cursor-pointer">Devices</div>
+                        </div>        
+                    </div>
+                    <!-- End Security Info  -->
+                    <!-- Start Social Info  -->
+                    <div class=" bg-white rounded-2xl p-6">
+                        <h2 class="font-bold text-2xl">Social Info</h2>
+                        <span class="block text-greyColor mt-2 mb-4 text-sm">Security Information About Your Account</span>
+                        <!-- Twitter  -->
+                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                            <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-twitter text-greyColor"></i></div>
+                            <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="Twitter Username">
+                        </div>
+                        <!-- Facebook  -->
+                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                            <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-facebook text-greyColor"></i></div>
+                            <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="Facebook Username">
+                        </div>
+                        <!-- Instagram  -->
+                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                            <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-instagram text-greyColor"></i></div>
+                            <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="Instagram Username">
+                        </div>
+                        <!-- linkedin  -->
+                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                            <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-linkedin text-greyColor"></i></div>
+                            <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="linkedin Username">
+                        </div>
+                        <!-- pinterest  -->
+                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                            <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-pinterest text-greyColor"></i></div>
+                            <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="pinterest Username">
+                        </div>
+                
+                    </div>
+                    <!-- End Social Info  -->
+                    <!-- Start Widgets Control -->
+                    <div class=" bg-white rounded-2xl p-6">
+                        <h2 class="font-bold text-2xl">Widgets Control </h2>
+                        <span class="block text-greyColor mt-2 mb-4 text-sm">Show/Hide Widgets</span>
+                        <div>
+                            <input class="w-3" type="checkbox" checked>
+                            <label>Quick Draft</label>
+                        </div>
+                    </div>
+                    <!-- End Widgets Control  -->
                 </div>                 
             </div>
         </div>
