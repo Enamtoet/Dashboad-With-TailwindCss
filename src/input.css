@@ -15,6 +15,50 @@
 ::-webkit-scrollbar-thumb:hover{
     background-color: #0d69d5
 }
+/* Start Toggle checkbox  */
+.toggle-checkbox{
+    --webkit-appearance: none;
+    appearance: none;
+}
+.toggle-switch{
+    width: 70px;
+    height: 30px;
+    background-color: #EEE;
+    border-radius: 16px;
+    position: relative;
+    cursor: pointer;
+}
+.toggle-switch::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f00d";
+    font-weight: 900;
+    font-size: 13px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width:20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+.toggle-checkbox:checked + .toggle-switch{
+    background-color: #0075ff;
+}
+.toggle-checkbox:checked + .toggle-switch::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f00c";
+    font-weight: 900;
+    left: calc(100% - 20px - 5px);
+    font-size: 13px;
+    background-color: white;
+    color: #0075ff;
+}
+/* End Toggle checkbox  */
 /* Side Bar Title  */
 .page .sidebar h3::before,
 .page .sidebar h3::after{
@@ -149,10 +193,7 @@ transition:0.3s;
 }
 /* End Reminders  */
 /* Start Table  */
-.project .responsive-table{
-    max-width:200px;
 
-}
 
 
 /* End Table  */

@@ -12,563 +12,565 @@
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-bgray font-cairo">
-<div class=" page flex justify-between">
-    <!-- Start Sidebar  -->
-    <div class="sidebar p-3 w-16 custom-box-shadow bg-white md:w-56 md:p-5">
-        <h3 class=" before:hidden after:hidden font-bold text-sm p-1 relative text-center mt-0 md:text-2xl md:before:block md:after:block">OTY</h3>
-        <ul class=" mt-8 md:mt-12 ">
-            <li class="active flex justify-center items-center text-sm px-2 py-4   rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="index.html">
-                    <i class="fa-solid fa-chart-bar fa-fw md:mr-3"></i>
-                    <span class="hidden md:inline-block">Dashborad</span>
-                </a>
-            </li>
-            <li class="flex justify-center items-center text-sm  px-2 py-4  rounded-lg mb-2 transition duration-300 hover:hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="setting.html">
-                    <i class="fa-solid fa-gear fa-fw md:mr-3"></i>
-                    <span class="hidden md:inline-block" >Settings</span>
-                </a>
-            </li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="">
-                    <i class="fa-regular fa-user fa-fw md:mr-3"></i>
-                    <span class="hidden md:inline-block">Profil</span>
-                </a>
-            </li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="">
-                    <i class="fa-solid fa-diagram-project fa-fw md:mr-3"></i>
-                    <span class="hidden md:inline-block">Projects</span>
-                </a>
-            </li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="#">
-                    <i class="fa-solid fa-graduation-cap fa-fw md:mr-3">
+    <div class=" page flex justify-between">
+        <!-- Start Sidebar  -->
+        <div class="sidebar p-3 w-16 custom-box-shadow bg-white md:w-60 md:p-5">
+            <h3 class=" before:hidden after:hidden font-bold text-sm p-1 relative text-center mt-0 md:text-2xl md:before:block md:after:block">OTY</h3>
+            <ul class=" mt-8 md:mt-12 ">
+                <li class="active flex justify-center items-center text-sm px-2 py-4   rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                    <a href="index.html" class="flex items-center">
+                        <i class="fa-solid fa-chart-bar fa-fw md:mr-3"></i>
+                        <span class="hidden md:inline-block">Dashborad</span>
+                    </a>
+                </li>
+                <li class="flex justify-center items-center text-sm  px-2 py-4  rounded-lg mb-2 transition duration-300 hover:hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                    <a href="settings.html" class="flex items-center">
+                        <i class="fa-solid fa-gear fa-fw md:mr-3"></i>
+                        <span class="hidden md:inline-block" >Settings</span>
+                    </a>
+                </li>
+                <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                    <a href="profile.html" class="flex items-center">
+                        <i class="fa-regular fa-user fa-fw md:mr-3"></i>
+                        <span class="hidden md:inline-block">Profile</span>
+                    </a>
+                </li>
+                <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                    <a href="projects.html" class="flex items-center">
+                        <i class="fa-solid fa-diagram-project fa-fw md:mr-3"></i>
+                        <span class="hidden md:inline-block">Projects</span>
+                    </a>
+                </li>
+                <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                    <a href="courses.html" class="flex items-center">
+                        <i class="fa-solid fa-graduation-cap fa-fw md:mr-3">
 
-                    </i><span class="hidden md:inline-block">Courses</span>
-                </a>
-            </li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="">
-                    <i class="fa-regular fa-circle-user fa-fw md:mr-3"></i>
-                    <span class="hidden md:inline-block">Friends</span>
-                </a>
-            </li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="">
-                    <i class="fa-regular fa-file fa-fw md:mr-3"></i>
-                    <span class="hidden md:inline-block">Files</span>
-                </a>
-            </li>
-            <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="">
-                    <i class="fa-regular fa-credit-card fa-fw md:mr-3"></i>
-                    <span class="hidden md:inline-block">Plans</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!-- End Sidebar  -->
-    <!-- Start Content  -->
-   <div class="content flex-1">
-    <!-- Search bar  -->
-        <div class="bg-white p-4 h-fit w flex justify-between">   
-            <div class="relative flex items-center">
-                <div class="text-gray-400 absolute px-2 ">
-                    <i class="fa-solid fa-magnifying-glass "></i>
-                </div>
-                <input type="text" placeholder="Type A Keyword" class=" text-sm w-36 pl-8 py-2 border border-solid transition-all duration-300 border-gray-300 rounded-lg focus:outline-none focus:placeholder-transparent focus:w-52">
-            </div>
-            <div class="icons flex items-center">
-                <i class="fa-regular fa-bell text-xl fa-lg mr-4 cursor-pointer"></i>
-                <img src="img/avatar.png" class="w-8" alt="">
-            </div>
+                        </i><span class="hidden md:inline-block">Courses</span>
+                    </a>
+                </li>
+                <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                    <a href="friends.html" class="flex items-center">
+                        <i class="fa-regular fa-circle-user fa-fw md:mr-3"></i>
+                        <span class="hidden md:inline-block">Friends</span>
+                    </a>
+                </li>
+                <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                    <a href="files.html" class="flex items-center">
+                        <i class="fa-regular fa-file fa-fw md:mr-3"></i>
+                        <span class="hidden md:inline-block">Files</span>
+                    </a>
+                </li>
+                <li class="flex justify-center items-center text-sm px-2 py-4 rounded-lg mb-2 transition duration-300 hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
+                    <a href="plans.html" class="flex items-center">
+                        <i class="fa-regular fa-credit-card fa-fw md:mr-3"></i>
+                        <span class="hidden md:inline-block">Plans</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <!-- Dashborad  -->
-       <div class="p-5">
-        <div class="pl-0 py-3 mb-5 w-fit">
-            <h1 class="relative font-semibold text-4xl before:bg-white before:w-2/3 after:bg-black after:w-2/6 after:left-0">Dashbord</h1> 
-        </div>
-        <div class="wrapper grid gap-4 xl:grid-cols-2">
-            <!-- Start Welcome  -->
-            <div class="welcome bg-white rounded-2xl overflow-hidden">
-                <div class=" bg-bGray pb-9 flex justify-center md:justify-between p-4 md:pb-5">
-                    <div class="text-center md:text-left">
-                        <h2 class="font-bold text-2xl">Welcome</h2>
-                        <span class="text-greyColor my-7 text-sm">OTMAN</span>
-                    </div>
-                    <img src="img/welcome.png" alt="" class="hidden w-48 md:block">
-                </div>
-                <div class="relative">
-                    <img  src="img/avatar.png" alt="" class="absolute left-1/2 transform -translate-x-1/2 -top-8 w-16 border-4 border-solid border-white rounded-full md:left-14">
-                </div>
-                <div class="info flex flex-col items-center text-center space-y-6 mt-16 mb-5 px-7 py-5 border-t border-b border-solid border-bGray md:flex-row md:space-y-0">
-                    <div class="flex-1">
-                        <h3 class="font-semibold mb-1">OTMANE ET</h3>
-                        <span class="text-gray-400 text-sm">Developer</span>
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="font-semibold mb-1">80</h3>
-                        <span class="text-gray-400 text-sm">Projects</span>
-                    </div>
-                    <div class="flex-1">
-                        <h3 class="font-semibold mb-1">$8500</h3>
-                        <span class="text-gray-400 text-sm">Earned</span>
-                    </div>
-                </div>
-                <a href="profile.html" class=" block w-fit bg-blueColor text-white text-sm py-1 px-3 rounded-lg mb-8 ml-auto mr-4 md:mb-7 hover:bg-blueAltColor">Profile</a>
-            </div>
-            <!-- End Welcome  -->
-            <!-- Start Quick-draft  -->
-            <div class="draft  bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl">Quick Draft</h2>
-                <span class=" block text-greyColor mt-2 mb-4 text-sm">Write A Drift For Your Ideas</span>
-               <form action="action">
-                <input type="text" placeholder="Title" class="placeholder-greyColor text-xs bg-bGray py-3 px-3 w-full rounded-lg mb-5 focus:outline-none focus:placeholder-transparent">
-                <textarea  placeholder="Write Your Thought"  class="w-full placeholder-greyColor text-xs bg-bGray py-3 px-3 rounded-lg h-32 resize-none focus:outline-none focus:placeholder-transparent"></textarea>
-                <input type="submit" value="Save" class="block bg-blueColor text-white text-sm py-1 px-3 rounded-lg mt-3 ml-auto mr-4 cursor-pointer md:mb-7 hover:bg-blueAltColor">
-               </form>
-            </div>
-            <!-- Start Quick-draft  -->
-            <!-- Start Yearly Target  -->
-            <div class="targets  bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl">Yearly Targets</h2>
-                <span class=" block text-greyColor mt-2 mb-4 text-sm">Targets Of The Year</span>
-                <!-- Money  -->
-               <div class="money flex items-end mb-4">
-                    <div class="bg-blue-200 w-20 h-20 flex items-center justify-center ">
-                        <i class="fa-solid fa-dollar-sign text-blueColor text-xl"></i>
-                    </div>
-                    <div class="stat flex-1 ml-4">
-                        <span class="text-greyColor">Money</span>
-                        <h3 class="font-bold mb-3">$20.000</h3>
-                        <div class="progress1 relative h-1 w-full bg-blue-200">
-                            <span style="width: 80%;" class=" block bg-blueColor h-full"></span>
+        <!-- End Sidebar  -->
+        <!-- Start Content  -->
+        <div class="content flex-1">
+            <!--Start Search bar  -->
+            <div class="bg-white p-4 h-fit w flex justify-between">   
+                    <div class="relative flex items-center">
+                        <div class="text-gray-400 absolute px-2 ">
+                            <i class="fa-solid fa-magnifying-glass "></i>
                         </div>
+                        <input type="text" placeholder="Type A Keyword" class=" text-sm w-36 pl-8 py-2 border border-solid transition-all duration-300 border-gray-300 rounded-lg focus:outline-none focus:placeholder-transparent focus:w-52">
                     </div>
-               </div>
-                <!-- Project  -->
-               <div class="project flex items-end mb-4">
-                    <div class="bg-orange-200 w-20 h-20 flex items-center justify-center ">
-                        <i class="fa-solid fa-code text-orangeColor text-xl"></i>
+                    <div class="icons flex items-center">
+                        <i class="fa-regular fa-bell text-xl fa-lg mr-4 cursor-pointer"></i>
+                        <img src="img/avatar.png" class="w-8" alt="">
                     </div>
-                    <div class="stat flex-1 ml-4">
-                        <span class="text-greyColor">Projects</span>
-                        <h3 class="font-bold mb-3">24</h3>
-                        <div class="progress2 relative h-1 w-full bg-orange-200">
-                            <span style="width: 60%;" class=" block bg-orangeColor h-full"></span>
-                        </div>
-                    </div>
-               </div>
-                <!-- Team  -->
-                <div class="team flex items-end mb-4">
-                    <div class="bg-green-200 w-20 h-20 flex items-center justify-center ">
-                        <i class="fa-solid fa-user text-greenColor "></i>
-                    </div>
-                    <div class="stat flex-1 ml-4">
-                        <span class="text-greyColor">Team</span>
-                        <h3 class="font-bold mb-3">12</h3>
-                        <div class="progress3 relative h-1 w-full bg-green-200">
-                            <span style="width: 40%;" class=" block bg-greenColor h-full"></span>
-                        </div>
-                    </div>
-               </div>
             </div>
-             <!-- Start Yearly Target  -->
-             <!-- Start Tickets Statistics -->
-             <div class="tickets  bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl">Tickets Statistics</h2>
-                <span class=" block text-greyColor mt-2 mb-4 text-sm">Everything About Support Tickets</span>
-                <div class="stats grid gap-5 text-center md:grid-cols-2 ">
-                    <div class="info py-5  border border-solid border-gray-200 rounded-lg ">
-                        <i class="fa-regular fa-rectangle-list text-orangeColor text-3xl mb-4"></i>
-                        <h3 class="font-bold text-2xl mb-1">2500</h3>
-                        <span class="text-greyColor text-sm">Total</span>
+             <!-- End Search bar  -->
+            <div class="p-5">
+                    <!--Start Dashborad  -->
+                    <div class="pl-0 py-3 mb-5 w-fit">
+                        <h1 class="relative font-semibold text-4xl before:bg-white before:w-2/3 after:bg-black after:w-2/6 after:left-0">Dashbord</h1> 
                     </div>
-                    <div class="info py-5  border border-solid border-gray-200 rounded-lg ">
-                        <i class="fa-solid fa-spinner  text-blueColor text-3xl mb-4"></i>
-                        <h3 class="font-bold text-2xl mb-1">500</h3>
-                        <span class="text-greyColor text-sm">Pending</span>
-                    </div>
-                    <div class="info py-5  border border-solid border-gray-200 rounded-lg ">
-                        <i class="fa-regular fa-circle-check  text-greenColor text-3xl mb-4"></i>
-                        <h3 class="font-bold text-2xl mb-1">1900</h3>
-                        <span class="text-greyColor text-sm">Closed</span>
-                    </div>
-                    <div class="info py-5  border border-solid border-gray-200 rounded-lg ">
-                        <i class="fa-regular fa-circle-xmark  text-redColor text-3xl mb-4"></i>
-                        <h3 class="font-bold text-2xl mb-1">100</h3>
-                        <span class="text-greyColor text-sm">Deleted</span>
-                    </div>
-                </div>
-            </div>
-             <!-- End Tickets Statistics -->
-            <!-- Start Latest News -->
-                 <div class="news  bg-white rounded-2xl p-4">
-                    <h2 class="font-bold text-2xl">Latest News</h2>
-                    <!-- News 1 -->
-                            <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
-                                <img src="img/news-01.png" class="w-24 rounded-lg md:mr-5" alt="">
+                    <!--Start Dashborad  -->
+                    <div class="wrapper grid gap-4 xl:grid-cols-2">
+                        <!-- Start Welcome  -->
+                        <div class="welcome bg-white rounded-2xl overflow-hidden">
+                            <div class=" bg-bGray pb-9 flex justify-center md:justify-between p-4 md:pb-5">
+                                <div class="text-center md:text-left">
+                                    <h2 class="font-bold text-2xl">Welcome</h2>
+                                    <span class="text-greyColor my-7 text-sm">OTMAN</span>
+                                </div>
+                                <img src="img/welcome.png" alt="" class="hidden w-48 md:block">
+                            </div>
+                            <div class="relative">
+                                <img  src="img/avatar.png" alt="" class="absolute left-1/2 transform -translate-x-1/2 -top-8 w-16 border-4 border-solid border-white rounded-full md:left-14">
+                            </div>
+                            <div class="info flex flex-col items-center text-center space-y-6 mt-16 mb-5 px-7 py-5 border-t border-b border-solid border-bGray md:flex-row md:space-y-0">
                                 <div class="flex-1">
-                                    <h3 class="font-bold text-lg text-center md:text-left">Created SASS Section</h3>
-                                    <p class="text-greyColor text-xs font-semibold">New SASS Examples & Tutorials</p>
+                                    <h3 class="font-semibold mb-1">OTMANE ET</h3>
+                                    <span class="text-gray-400 text-sm">Developer</span>
                                 </div>
-                                <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
-                                    3 Days Ago
+                                <div class="flex-1">
+                                    <h3 class="font-semibold mb-1">80</h3>
+                                    <span class="text-gray-400 text-sm">Projects</span>
                                 </div>
-                             </div>
-                    <!-- News 2 -->
-                    <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
-                        <img src="img/news-02.png" class="w-24 rounded-lg md:mr-5" alt="">
-                        <div class="flex-1">
-                            <h3 class="font-bold text-lg text-center md:text-left">Changed The Design</h3>
-                            <p class="text-greyColor text-xs font-semibold">A Brand New Website Design</p>
+                                <div class="flex-1">
+                                    <h3 class="font-semibold mb-1">$8500</h3>
+                                    <span class="text-gray-400 text-sm">Earned</span>
+                                </div>
+                            </div>
+                            <a href="profile.html" class=" block w-fit bg-blueColor text-white text-sm py-1 px-3 rounded-lg mb-8 ml-auto mr-4 md:mb-7 hover:bg-blueAltColor">Profile</a>
                         </div>
-                        <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
-                            5 Days Ago
+                        <!-- End Welcome  -->
+                        <!-- Start Quick-draft  -->
+                        <div class="draft  bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl">Quick Draft</h2>
+                            <span class=" block text-greyColor mt-2 mb-4 text-sm">Write A Drift For Your Ideas</span>
+                        <form action="action">
+                            <input type="text" placeholder="Title" class="placeholder-greyColor text-xs bg-bGray py-3 px-3 w-full rounded-lg mb-5 focus:outline-none focus:placeholder-transparent">
+                            <textarea  placeholder="Write Your Thought"  class="w-full placeholder-greyColor text-xs bg-bGray py-3 px-3 rounded-lg h-32 resize-none focus:outline-none focus:placeholder-transparent"></textarea>
+                            <input type="submit" value="Save" class="block bg-blueColor text-white text-sm py-1 px-3 rounded-lg mt-3 ml-auto mr-4 cursor-pointer md:mb-7 hover:bg-blueAltColor">
+                        </form>
                         </div>
-                     </div>
-                    <!-- News 3 -->
-                    <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center t md:flex-row ">
-                        <img src="img/news-03.png" class="w-24 rounded-lg md:mr-5" alt="">
-                        <div class="flex-1 text-center md:text-left">
-                            <h3 class="font-bold text-lg ">Team Increased</h3>
-                            <p class="text-greyColor text-xs font-semibold">3 Developers Joined The Team</p>
+                        <!-- Start Quick-draft  -->
+                        <!-- Start Yearly Target  -->
+                        <div class="targets  bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl">Yearly Targets</h2>
+                            <span class=" block text-greyColor mt-2 mb-4 text-sm">Targets Of The Year</span>
+                            <!-- Money  -->
+                        <div class="money flex items-end mb-4">
+                                <div class="bg-blue-200 w-20 h-20 flex items-center justify-center ">
+                                    <i class="fa-solid fa-dollar-sign text-blueColor text-xl"></i>
+                                </div>
+                                <div class="stat flex-1 ml-4">
+                                    <span class="text-greyColor">Money</span>
+                                    <h3 class="font-bold mb-3">$20.000</h3>
+                                    <div class="progress1 relative h-1 w-full bg-blue-200">
+                                        <span style="width: 80%;" class=" block bg-blueColor h-full"></span>
+                                    </div>
+                                </div>
                         </div>
-                        <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
-                            7 Days Ago
+                            <!-- Project  -->
+                        <div class="project flex items-end mb-4">
+                                <div class="bg-orange-200 w-20 h-20 flex items-center justify-center ">
+                                    <i class="fa-solid fa-code text-orangeColor text-xl"></i>
+                                </div>
+                                <div class="stat flex-1 ml-4">
+                                    <span class="text-greyColor">Projects</span>
+                                    <h3 class="font-bold mb-3">24</h3>
+                                    <div class="progress2 relative h-1 w-full bg-orange-200">
+                                        <span style="width: 60%;" class=" block bg-orangeColor h-full"></span>
+                                    </div>
+                                </div>
                         </div>
-                     </div>
-                    
-                    <!-- News 4 -->
-                    <div class=" pt-5 flex flex-col items-center md:flex-row ">
-                        <img src="img/news-04.png" class="w-24 rounded-lg md:mr-5" alt="">
-                        <div class="flex-1">
-                            <h3 class="font-bold text-lg text-center md:text-left">Added Payment Gateway</h3>
-                            <p class="text-greyColor text-xs font-semibold">Many New Payment Gateways Added</p>
+                            <!-- Team  -->
+                            <div class="team flex items-end mb-4">
+                                <div class="bg-green-200 w-20 h-20 flex items-center justify-center ">
+                                    <i class="fa-solid fa-user text-greenColor "></i>
+                                </div>
+                                <div class="stat flex-1 ml-4">
+                                    <span class="text-greyColor">Team</span>
+                                    <h3 class="font-bold mb-3">12</h3>
+                                    <div class="progress3 relative h-1 w-full bg-green-200">
+                                        <span style="width: 40%;" class=" block bg-greenColor h-full"></span>
+                                    </div>
+                                </div>
                         </div>
-                        <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
-                            9 Days Ago
                         </div>
-                     </div>
-                     
-                </div>
-            <!-- End Latest News -->
-            <!-- Start Latest Tasks -->
-            <div class="tasks  bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl">Latest Tasks</h2>
-                <div class="flex items-center py-5 border-b border-gray-200 border-solid">
-                    <div class="flex-1">
-                        <h3 class="font-bold ">Record One New Video</h3>
-                        <p class="text-gray-500 text-xs">Record Python Create Exe Project</p>
+                        <!-- Start Yearly Target  -->
+                        <!-- Start Tickets Statistics -->
+                        <div class="tickets  bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl">Tickets Statistics</h2>
+                            <span class=" block text-greyColor mt-2 mb-4 text-sm">Everything About Support Tickets</span>
+                            <div class="stats grid gap-5 text-center md:grid-cols-2 ">
+                                <div class="info py-5  border border-solid border-gray-200 rounded-lg ">
+                                    <i class="fa-regular fa-rectangle-list text-orangeColor text-3xl mb-4"></i>
+                                    <h3 class="font-bold text-2xl mb-1">2500</h3>
+                                    <span class="text-greyColor text-sm">Total</span>
+                                </div>
+                                <div class="info py-5  border border-solid border-gray-200 rounded-lg ">
+                                    <i class="fa-solid fa-spinner  text-blueColor text-3xl mb-4"></i>
+                                    <h3 class="font-bold text-2xl mb-1">500</h3>
+                                    <span class="text-greyColor text-sm">Pending</span>
+                                </div>
+                                <div class="info py-5  border border-solid border-gray-200 rounded-lg ">
+                                    <i class="fa-regular fa-circle-check  text-greenColor text-3xl mb-4"></i>
+                                    <h3 class="font-bold text-2xl mb-1">1900</h3>
+                                    <span class="text-greyColor text-sm">Closed</span>
+                                </div>
+                                <div class="info py-5  border border-solid border-gray-200 rounded-lg ">
+                                    <i class="fa-regular fa-circle-xmark  text-redColor text-3xl mb-4"></i>
+                                    <h3 class="font-bold text-2xl mb-1">100</h3>
+                                    <span class="text-greyColor text-sm">Deleted</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Tickets Statistics -->
+                        <!-- Start Latest News -->
+                            <div class="news  bg-white rounded-2xl p-4">
+                                <h2 class="font-bold text-2xl">Latest News</h2>
+                                <!-- News 1 -->
+                                        <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
+                                            <img src="img/news-01.png" class="w-24 rounded-lg md:mr-5" alt="">
+                                            <div class="flex-1">
+                                                <h3 class="font-bold text-lg text-center md:text-left">Created SASS Section</h3>
+                                                <p class="text-greyColor text-xs font-semibold">New SASS Examples & Tutorials</p>
+                                            </div>
+                                            <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
+                                                3 Days Ago
+                                            </div>
+                                        </div>
+                                <!-- News 2 -->
+                                <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center md:flex-row ">
+                                    <img src="img/news-02.png" class="w-24 rounded-lg md:mr-5" alt="">
+                                    <div class="flex-1">
+                                        <h3 class="font-bold text-lg text-center md:text-left">Changed The Design</h3>
+                                        <p class="text-greyColor text-xs font-semibold">A Brand New Website Design</p>
+                                    </div>
+                                    <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
+                                        5 Days Ago
+                                    </div>
+                                </div>
+                                <!-- News 3 -->
+                                <div class=" py-5 border-b border-gray-200 border-solid flex flex-col items-center t md:flex-row ">
+                                    <img src="img/news-03.png" class="w-24 rounded-lg md:mr-5" alt="">
+                                    <div class="flex-1 text-center md:text-left">
+                                        <h3 class="font-bold text-lg ">Team Increased</h3>
+                                        <p class="text-greyColor text-xs font-semibold">3 Developers Joined The Team</p>
+                                    </div>
+                                    <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
+                                        7 Days Ago
+                                    </div>
+                                </div>
+                                
+                                <!-- News 4 -->
+                                <div class=" pt-5 flex flex-col items-center md:flex-row ">
+                                    <img src="img/news-04.png" class="w-24 rounded-lg md:mr-5" alt="">
+                                    <div class="flex-1">
+                                        <h3 class="font-bold text-lg text-center md:text-left">Added Payment Gateway</h3>
+                                        <p class="text-greyColor text-xs font-semibold">Many New Payment Gateways Added</p>
+                                    </div>
+                                    <div class="w-fit mx-auto mt-3 bg-gray-200 text-xs py-2 px-3 rounded-lg md:mx-0 md:mt-0">
+                                        9 Days Ago
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        <!-- End Latest News -->
+                        <!-- Start Latest Tasks -->
+                        <div class="tasks  bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl">Latest Tasks</h2>
+                            <div class="flex items-center py-5 border-b border-gray-200 border-solid">
+                                <div class="flex-1">
+                                    <h3 class="font-bold ">Record One New Video</h3>
+                                    <p class="text-gray-500 text-xs">Record Python Create Exe Project</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can cursor-pointer transition duration-200 hover:text-red-600"></i>
+                            </div>
+                            <div class="flex items-center py-5 border-b border-gray-200 border-solid">
+                                <div class="flex-1">
+                                    <h3 class="font-bold ">Write Article</h3>
+                                    <p class="text-gray-500 text-xs">Write Low Level vs High Level Languages</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can cursor-pointer transition duration-200 hover:text-red-600"></i>
+                            </div>
+                            <div class="flex items-center py-5 border-b border-gray-200 border-solid">
+                                <div class="flex-1">
+                                    <h3 class="font-bold ">Finish Project</h3>
+                                    <p class="text-gray-500 text-xs">Publish Academy Programming Project</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can cursor-pointer transition duration-200 hover:text-red-600"></i>
+                            </div>
+                            <div class="flex items-center py-5 border-b border-gray-200 border-solid">
+                                <div class="flex-1 line-through text-gray-300">
+                                    <h3 class="font-bold text-gray-300">Attend The Meeting</h3>
+                                    <p class="text-gray-300 text-xs">Attend The Project Business Analysis Meeting</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can text-gray-300"></i>
+                            </div>
+                            <div class="flex items-center pt-5 ">
+                                <div class="flex-1">
+                                    <h3 class="font-bold ">Finish Lesson</h3>
+                                    <p class="text-gray-500 text-xs">Finish Teaching Flex Box</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can cursor-pointer transition duration-200 hover:text-red-600 "></i>
+                            </div>
+                        </div>
+                        <!-- End Latest Tasks -->
+                        <!-- Start Top Search Items -->
+                        <div class="search bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl">Top Search Items</h2>
+                            <div class="flex text-gray-400 mt-4">
+                                <span class="flex-1">Keyword</span>
+                                <span>Search Count</span>
+                            </div>
+                            <!-- info 1 -->
+                            <div class=" info flex justify-between py-4">
+                                <span class="font-semibold">Programming</span>
+                                <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">220</div>
+                            </div>
+                            <!-- info 2 -->
+                            <div class=" info flex justify-between py-4">
+                                <span class="font-semibold">JavaScript</span>
+                                <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">180</div>
+                            </div>
+                            <!-- info 3 -->
+                            <div class=" info flex justify-between py-4">
+                                <span class="font-semibold">PHP</span>
+                                <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">160</div>
+                            </div>
+                            <!-- info 4 -->
+                            <div class=" info flex justify-between py-4">
+                                <span class="font-semibold">Code</span>
+                                <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">145</div>
+                            </div>
+                            <!-- info 5 -->
+                            <div class=" info flex justify-between py-4">
+                                <span class="font-semibold">Design</span>
+                                <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">110</div>
+                            </div>
+                            <!-- info 6 -->
+                            <div class=" info flex justify-between py-4">
+                                <span class="font-semibold">Logic</span>
+                                <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">95</div>
+                            </div>
+                        </div>
+                        <!-- End Top Search Items -->
+                        <!-- Start Latest Uploads -->
+                        <div class="search bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl mb-5">Latest Uploads</h2>
+                            <!-- PDF  -->
+                            <div class="box flex items-center py-3 border-b border-solid border-gray-300">
+                                <img src="img/pdf.svg" class="w-11 mr-5" alt="">
+                                <div class="info flex-1">
+                                    <h3 class="text-md ">My-File.pdf</h3>
+                                    <spa class="text-sm text-gray-500">Otman</span>
+                                </div>
+                                <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">2.9mb</div>
+                            </div>
+                            <!-- AVI  -->
+                            <div class="box flex items-center py-3 border-b border-solid border-gray-300">
+                                <img src="img/avi.svg" class="w-11 mr-5" alt="">
+                                <div class="info flex-1">
+                                    <h3 class="text-md ">My-Video-File.avi</h3>
+                                    <spa class="text-sm text-gray-500">Admin</span>
+                                </div>
+                                <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">4.9mb</div>
+                            </div>
+                            <!-- PSD  -->
+                            <div class="box flex items-center py-3 border-b border-solid border-gray-300">
+                                <img src="img/psd.svg" class="w-11 mr-5" alt="">
+                                <div class="info flex-1">
+                                    <h3 class="text-md ">My-Psd-File.pdf</h3>
+                                    <spa class="text-sm text-gray-500">Oty</span>
+                                </div>
+                                <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">5.9mb</div>
+                            </div>
+                            <!-- ZIP  -->
+                            <div class="box flex items-center py-3 border-b border-solid border-gray-300">
+                                <img src="img/zip.svg" class="w-11 mr-5" alt="">
+                                <div class="info flex-1">
+                                    <h3 class="text-md ">My-Zip-File.pdf</h3>
+                                    <spa class="text-sm text-gray-500">User</span>
+                                </div>
+                                <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">8.9mb</div>
+                            </div>
+                            <!-- DLL  -->
+                            <div class="box flex items-center pt-3">
+                                <img src="img/dll (1).svg" class="w-11 mr-5" alt="">
+                                <div class="info flex-1">
+                                    <h3 class="text-md ">My-DLL-File.pdf</h3>
+                                    <spa class="text-sm text-gray-500">Admin</span>
+                                </div>
+                                <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">4.9mb</div>
+                            </div>
+                        </div>
+                        <!-- End Latest Uploads -->
+                        <!-- Start Last Project Progress  -->
+                        <div  class="search bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl mb-5">Last Project Progress</h2>
+                        <div class="flex items-end justify-between">
+                            <ul class=" progress relative ">
+                                <li class="project relative mb-7 ml-10 before:bg-blueColor">Got The Project</li>
+                                <li class="project relative mb-7 ml-10 before:bg-blueColor">Started The Project</li>
+                                <li class="project relative mb-7 ml-10 before:bg-blueColor">The Project About To Finish</li>
+                                <li class="project current relative mb-7 ml-10">Test The Projectt</li>
+                                <li class="project relative mb-7 ml-10 before:bg-white">Finish The Project & Get Money</li>
+                            </ul>
+                            <img src="img/project.png" class=" hidden w-36 opacity-50 md:block" alt="">
+                        </div>
+                        </div>
+                        <!-- End Last Project Progress  -->
+                        <!-- Start Reminders  -->
+                        <div class="reminders relative bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl mb-5">Reminders</h2>
+                                    <div class="info mb-5 ml-16 relative before:bg-blueColor after:bg-blueColor">
+                                        <h3 class="font-bold text-sm ">Check My Tasks List</h3>
+                                        <span class="text-xs text-gray-500">28/09/2022 - 12:00am</span>
+                                    </div>
+                                    <div class="info mb-5 ml-16 relative before:bg-greenColor after:bg-greenColor">
+                                        <h3 class="font-bold text-sm ">Check My Projects</h3>
+                                        <span class="text-xs text-gray-500">26/10/2022 - 12:00am</span>
+                                    </div>
+                                    <div class="info mb-5 ml-16 relative before:bg-orangeColor after:bg-orangeColor">
+                                        <h3 class="font-bold text-sm ">Call All My Clients</h3>
+                                        <span class="text-xs text-gray-500">05/11/2022 - 12:00am</span>
+                                    </div>
+                                    <div class="info mb-5 ml-16 relative before:bg-redColor after:bg-redColor">
+                                        <h3 class="font-bold text-sm ">Finish The Development Workshop</h3>
+                                        <span class="text-xs text-gray-500">20/12/2022 - 12:00am</span>
+                                    </div>
+                                <img src="img/reminders.png" class=" hidden absolute bottom-7 right-8 w-24 opacity-50 md:block" alt="">
+                        </div>
+                        <!-- End Reminders  -->
+                        <!-- Start Latest Post  -->
+                        <div class="post bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl ">Latest Post</h2>
+                            <div class="info flex items-center border-b border-solid border-gray-200 pt-5 pb-8">
+                                <img src="img/avatar.png" class="w-16" alt="">
+                                <div class="ml-4">
+                                    <h3 class="font-bold">Otmane Oty</h3>
+                                    <span class="text-sm text-gray-500">About 3 Hours Ago</span>
+                                </div>
+                            </div>
+                            <p class="border-b border-solid border-gray-200 py-8 text-md">You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time,
+                            But You Can't Fool All Of The People All Of The Time.</p>
+                            <div class="flex justify-between pt-8 text-gray-500">
+                                <div class="">
+                                    <i class="fa-regular fa-heart"></i>
+                                    18k 
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-comments"></i>
+                                    500
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Latest Post  -->
+                        <!-- Start Social Media  -->
+                        <div class="Social bg-white rounded-2xl p-4">
+                            <h2 class="font-bold text-2xl ">Social Media Stats</h2>
+                            <!-- Twitter  -->
+                            <div class="flex items-center bg-twitterAlt mt-4 rounded-lg overflow-hidden ">
+                                <div class="icon w-14 h-14 bg-twitter flex items-center justify-center"><i class="fa-brands fa-twitter text-4xl text-white "></i></div>
+                                <div class="flex-1 ml-4 text-twitter font-bold">90k Followers</div>
+                                <div class="bg-twitter text-white text-sm py-1 px-2 rounded-lg mr-4 cursor-pointer">Follow</div>
+                            </div>
+                            <!-- Facebook  -->
+                            <div class="flex items-center bg-twitterAlt mt-4 rounded-lg overflow-hidden ">
+                                <div class="icon w-14 h-14 bg-facebook flex items-center justify-center"><i class="fa-brands fa-facebook text-4xl text-white"></i></div>
+                                <div class="flex-1 ml-4 text-facebook font-bold">2M Like</div>
+                                <div class="bg-facebook text-white text-sm py-1 px-2 rounded-lg mr-4 cursor-pointer">Like</div>
+                            </div>
+                            <!-- Youtube  -->
+                            <div class="flex items-center bg-youtubeAlt mt-4 rounded-lg overflow-hidden ">
+                                <div class="icon w-14 h-14 bg-youtube flex items-center justify-center"><i class="fa-brands fa-youtube text-4xl text-white"></i></div>
+                                <div class="flex-1 ml-4 text-youtube font-bold">1M Subs</div>
+                                <div class="bg-youtube text-white text-sm py-1 px-2 rounded-lg mr-4 cursor-pointer">Subscribe</div>
+                            </div>
+                            <!-- Linkdin  -->
+                            <div class="flex items-center bg-linkdinAlt mt-4 rounded-lg overflow-hidden ">
+                                <div class="icon w-14 h-14 bg-linkdin flex items-center justify-center"><i class="fa-brands fa-linkedin text-4xl text-white"></i></div>
+                                <div class="flex-1 ml-4 text-linkdin font-bold">70k Followers</div>
+                                <div class="bg-linkdin text-white text-sm py-1 px-2 rounded-lg mr-4 cursor-pointer">Follow</div>
+                            </div>
+                        </div>
+                        <!-- End Social Media  -->
                     </div>
-                    <i class="fa-regular fa-trash-can cursor-pointer transition duration-200 hover:text-red-600"></i>
-                </div>
-                <div class="flex items-center py-5 border-b border-gray-200 border-solid">
-                    <div class="flex-1">
-                        <h3 class="font-bold ">Write Article</h3>
-                        <p class="text-gray-500 text-xs">Write Low Level vs High Level Languages</p>
+                    <!-- Start Project  -->
+                    <div class="project bg-white rounded-2xl p-4 mt-4 ">
+                        <h2 class="font-bold text-2xl ">Projects</h2>
+                    <div class=" responsive-table max-w-sm overflow-x-scroll md:max-w-full">
+                        <table class="w-full mt-5">
+                            <thead class=" border border-solid border-gray-200">
+                            <tr>
+                                <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Name</th>
+                                <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Finish Date</th>
+                                <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Client</th>
+                                <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Price</th>
+                                <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Team</th>
+                                <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Status</th>       
+                            </tr>
+                            </thead>
+                            <tbody class=" bg-white ">
+                            <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">Ministry Wikipedia</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">10 May 2022</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">Ministry</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">$5300</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
+                                    <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
+                                    <img src="img/team-03.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
+                                </td>
+                                <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-orangeColor text-white py-1 px-2 w-fit text-xs rounded-lg">Pending</div></td>      
+                            </tr>
+                            <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">OTY Shop</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">12 Oct 2021</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">OTY Company</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">$1500</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
+                                    <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
+                                    <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
+                                    <img src="img/team-03.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-10" alt="">
+                                    <img src="img/team-05.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-14" alt="">
+                                </td>
+                                <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-blueColor w-fit text-white py-1 px-2  text-xs rounded-lg">In Progress</div></td>      
+                            </tr>
+                            <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">Bouba App</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">05 Sep 2021</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">Bouba</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">$500</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
+                                    <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
+                                    <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
+                                </td>
+                                <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-greenColor text-white py-1 px-2 w-fit text-xs rounded-lg">Completed</div></td>      
+                            </tr>
+                            <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">Ecommerce Store</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">22 May 2021</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">Otman</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">$900</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
+                                    <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
+                                    <img src="img/team-05.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
+                                    <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-10" alt="">
+                                </td>
+                                <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-greenColor text-white py-1 px-2 w-fit text-xs rounded-lg">Completed</div></td>      
+                            </tr>
+                            <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">Otman Website</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">24 May 2021</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">Matto</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">$1900</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
+                                    <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
+                                    <img src="img/team-05.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
+                                    <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-10" alt="">
+                                    <img src="img/team-03.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-14" alt="">
+                                </td>
+                                <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-redColor text-white py-1 px-2 w-fit text-xs rounded-lg">Rejected</div></td>      
+                            </tr>
+                            <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">Arena Application</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">01 Mar 2021</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">01 Mar 2021</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6">$2600</td>
+                                <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
+                                    <img src="img/team-05.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
+                                    <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
+                                </td>
+                                <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-greenColor text-white py-1 px-2 w-fit text-xs rounded-lg">Completed</div></td>      
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <i class="fa-regular fa-trash-can cursor-pointer transition duration-200 hover:text-red-600"></i>
-                </div>
-                <div class="flex items-center py-5 border-b border-gray-200 border-solid">
-                    <div class="flex-1">
-                        <h3 class="font-bold ">Finish Project</h3>
-                        <p class="text-gray-500 text-xs">Publish Academy Programming Project</p>
                     </div>
-                    <i class="fa-regular fa-trash-can cursor-pointer transition duration-200 hover:text-red-600"></i>
-                </div>
-                <div class="flex items-center py-5 border-b border-gray-200 border-solid">
-                    <div class="flex-1 line-through text-gray-300">
-                        <h3 class="font-bold text-gray-300">Attend The Meeting</h3>
-                        <p class="text-gray-300 text-xs">Attend The Project Business Analysis Meeting</p>
-                    </div>
-                    <i class="fa-regular fa-trash-can text-gray-300"></i>
-                </div>
-                <div class="flex items-center pt-5 ">
-                    <div class="flex-1">
-                        <h3 class="font-bold ">Finish Lesson</h3>
-                        <p class="text-gray-500 text-xs">Finish Teaching Flex Box</p>
-                    </div>
-                    <i class="fa-regular fa-trash-can cursor-pointer transition duration-200 hover:text-red-600 "></i>
-                </div>
+                    <!-- End Project  -->
             </div>
-            <!-- End Latest Tasks -->
-            <!-- Start Top Search Items -->
-            <div class="search bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl">Top Search Items</h2>
-                <div class="flex text-gray-400 mt-4">
-                    <span class="flex-1">Keyword</span>
-                    <span>Search Count</span>
-                </div>
-                 <!-- info 1 -->
-                <div class=" info flex justify-between py-4">
-                    <span class="font-semibold">Programming</span>
-                    <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">220</div>
-                </div>
-                <!-- info 2 -->
-                <div class=" info flex justify-between py-4">
-                    <span class="font-semibold">JavaScript</span>
-                    <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">180</div>
-                </div>
-                <!-- info 3 -->
-                <div class=" info flex justify-between py-4">
-                    <span class="font-semibold">PHP</span>
-                    <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">160</div>
-                </div>
-                <!-- info 4 -->
-                <div class=" info flex justify-between py-4">
-                    <span class="font-semibold">Code</span>
-                    <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">145</div>
-                </div>
-                <!-- info 5 -->
-                <div class=" info flex justify-between py-4">
-                    <span class="font-semibold">Design</span>
-                    <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">110</div>
-                </div>
-                <!-- info 6 -->
-                <div class=" info flex justify-between py-4">
-                    <span class="font-semibold">Logic</span>
-                    <div class=" text-xs bg-gray-200 py-1 px-2 rounded-lg">95</div>
-                </div>
-            </div>
-            <!-- End Top Search Items -->
-            <!-- Start Latest Uploads -->
-            <div class="search bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl mb-5">Latest Uploads</h2>
-                <!-- PDF  -->
-                <div class="box flex items-center py-3 border-b border-solid border-gray-300">
-                    <img src="img/pdf.svg" class="w-11 mr-5" alt="">
-                    <div class="info flex-1">
-                        <h3 class="text-md ">My-File.pdf</h3>
-                        <spa class="text-sm text-gray-500">Otman</span>
-                    </div>
-                    <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">2.9mb</div>
-                </div>
-                <!-- AVI  -->
-                <div class="box flex items-center py-3 border-b border-solid border-gray-300">
-                    <img src="img/avi.svg" class="w-11 mr-5" alt="">
-                    <div class="info flex-1">
-                        <h3 class="text-md ">My-Video-File.avi</h3>
-                        <spa class="text-sm text-gray-500">Admin</span>
-                    </div>
-                    <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">4.9mb</div>
-                </div>
-                <!-- PSD  -->
-                <div class="box flex items-center py-3 border-b border-solid border-gray-300">
-                    <img src="img/psd.svg" class="w-11 mr-5" alt="">
-                    <div class="info flex-1">
-                        <h3 class="text-md ">My-Psd-File.pdf</h3>
-                        <spa class="text-sm text-gray-500">Oty</span>
-                    </div>
-                    <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">5.9mb</div>
-                </div>
-                <!-- ZIP  -->
-                <div class="box flex items-center py-3 border-b border-solid border-gray-300">
-                    <img src="img/zip.svg" class="w-11 mr-5" alt="">
-                    <div class="info flex-1">
-                        <h3 class="text-md ">My-Zip-File.pdf</h3>
-                        <spa class="text-sm text-gray-500">User</span>
-                    </div>
-                    <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">8.9mb</div>
-                </div>
-                <!-- DLL  -->
-                <div class="box flex items-center pt-3">
-                    <img src="img/dll (1).svg" class="w-11 mr-5" alt="">
-                    <div class="info flex-1">
-                        <h3 class="text-md ">My-DLL-File.pdf</h3>
-                        <spa class="text-sm text-gray-500">Admin</span>
-                    </div>
-                    <div class="text-xs bg-gray-200 py-1 px-2 rounded-lg">4.9mb</div>
-                </div>
-            </div>
-            <!-- End Latest Uploads -->
-            <!-- Start Last Project Progress  -->
-            <div  class="search bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl mb-5">Last Project Progress</h2>
-              <div class="flex items-end justify-between">
-                <ul class=" progress relative ">
-                    <li class="project relative mb-7 ml-10 before:bg-blueColor">Got The Project</li>
-                    <li class="project relative mb-7 ml-10 before:bg-blueColor">Started The Project</li>
-                    <li class="project relative mb-7 ml-10 before:bg-blueColor">The Project About To Finish</li>
-                    <li class="project current relative mb-7 ml-10">Test The Projectt</li>
-                    <li class="project relative mb-7 ml-10 before:bg-white">Finish The Project & Get Money</li>
-                </ul>
-                <img src="img/project.png" class=" hidden w-36 opacity-50 md:block" alt="">
-              </div>
-            </div>
-            <!-- End Last Project Progress  -->
-            <!-- Start Reminders  -->
-            <div class="reminders relative bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl mb-5">Reminders</h2>
-                        <div class="info mb-5 ml-16 relative before:bg-blueColor after:bg-blueColor">
-                            <h3 class="font-bold text-sm ">Check My Tasks List</h3>
-                            <span class="text-xs text-gray-500">28/09/2022 - 12:00am</span>
-                        </div>
-                        <div class="info mb-5 ml-16 relative before:bg-greenColor after:bg-greenColor">
-                            <h3 class="font-bold text-sm ">Check My Projects</h3>
-                            <span class="text-xs text-gray-500">26/10/2022 - 12:00am</span>
-                        </div>
-                        <div class="info mb-5 ml-16 relative before:bg-orangeColor after:bg-orangeColor">
-                            <h3 class="font-bold text-sm ">Call All My Clients</h3>
-                            <span class="text-xs text-gray-500">05/11/2022 - 12:00am</span>
-                        </div>
-                        <div class="info mb-5 ml-16 relative before:bg-redColor after:bg-redColor">
-                            <h3 class="font-bold text-sm ">Finish The Development Workshop</h3>
-                            <span class="text-xs text-gray-500">20/12/2022 - 12:00am</span>
-                        </div>
-                    <img src="img/reminders.png" class=" hidden absolute bottom-7 right-8 w-24 opacity-50 md:block" alt="">
-            </div>
-            <!-- End Reminders  -->
-            <!-- Start Latest Post  -->
-            <div class="post bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl ">Latest Post</h2>
-                <div class="info flex items-center border-b border-solid border-gray-200 pt-5 pb-8">
-                    <img src="img/avatar.png" class="w-16" alt="">
-                    <div class="ml-4">
-                        <h3 class="font-bold">Otmane Oty</h3>
-                        <span class="text-sm text-gray-500">About 3 Hours Ago</span>
-                    </div>
-                </div>
-                <p class="border-b border-solid border-gray-200 py-8 text-md">You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time,
-                 But You Can't Fool All Of The People All Of The Time.</p>
-                 <div class="flex justify-between pt-8 text-gray-500">
-                    <div class="">
-                        <i class="fa-regular fa-heart"></i>
-                        18k 
-                    </div>
-                    <div>
-                        <i class="fa-regular fa-comments"></i>
-                        500
-                    </div>
-                 </div>
-            </div>
-            <!-- End Latest Post  -->
-            <!-- Start Social Media  -->
-            <div class="Social bg-white rounded-2xl p-4">
-                <h2 class="font-bold text-2xl ">Social Media Stats</h2>
-                <!-- Twitter  -->
-                <div class="flex items-center bg-twitterAlt mt-4 rounded-lg overflow-hidden ">
-                    <div class="icon w-14 h-14 bg-twitter flex items-center justify-center"><i class="fa-brands fa-twitter text-4xl text-white "></i></div>
-                    <div class="flex-1 ml-4 text-twitter font-bold">90k Followers</div>
-                    <div class="bg-twitter text-white text-sm py-1 px-2 rounded-lg mr-4 cursor-pointer">Follow</div>
-                </div>
-                <!-- Facebook  -->
-                <div class="flex items-center bg-twitterAlt mt-4 rounded-lg overflow-hidden ">
-                    <div class="icon w-14 h-14 bg-facebook flex items-center justify-center"><i class="fa-brands fa-facebook text-4xl text-white"></i></div>
-                    <div class="flex-1 ml-4 text-facebook font-bold">2M Like</div>
-                    <div class="bg-facebook text-white text-sm py-1 px-2 rounded-lg mr-4 cursor-pointer">Like</div>
-                </div>
-                <!-- Youtube  -->
-                <div class="flex items-center bg-youtubeAlt mt-4 rounded-lg overflow-hidden ">
-                    <div class="icon w-14 h-14 bg-youtube flex items-center justify-center"><i class="fa-brands fa-youtube text-4xl text-white"></i></div>
-                    <div class="flex-1 ml-4 text-youtube font-bold">1M Subs</div>
-                    <div class="bg-youtube text-white text-sm py-1 px-2 rounded-lg mr-4 cursor-pointer">Subscribe</div>
-                </div>
-                <!-- Linkdin  -->
-                <div class="flex items-center bg-linkdinAlt mt-4 rounded-lg overflow-hidden ">
-                    <div class="icon w-14 h-14 bg-linkdin flex items-center justify-center"><i class="fa-brands fa-linkedin text-4xl text-white"></i></div>
-                    <div class="flex-1 ml-4 text-linkdin font-bold">70k Followers</div>
-                    <div class="bg-linkdin text-white text-sm py-1 px-2 rounded-lg mr-4 cursor-pointer">Follow</div>
-                </div>
-            </div>
-            <!-- End Social Media  -->
         </div>
-         <!-- Start Project  -->
-         <div class="project bg-white rounded-2xl p-4 mt-4 ">
-            <h2 class="font-bold text-2xl ">Projects</h2>
-          <div class=" responsive-table overflow-x-scroll">
-            <table class="w-full mt-5">
-                <thead class=" border border-solid border-gray-200">
-                  <tr>
-                    <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Name</th>
-                    <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Finish Date</th>
-                    <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Client</th>
-                    <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Price</th>
-                    <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Team</th>
-                    <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Status</th>       
-                  </tr>
-                </thead>
-                <tbody class=" bg-white ">
-                  <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">Ministry Wikipedia</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">10 May 2022</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">Ministry</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">$5300</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
-                        <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
-                        <img src="img/team-03.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
-                    </td>
-                    <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-orangeColor text-white py-1 px-2 w-fit text-xs rounded-lg">Pending</div></td>      
-                  </tr>
-                  <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">OTY Shop</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">12 Oct 2021</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">OTY Company</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">$1500</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
-                        <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
-                        <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
-                        <img src="img/team-03.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-10" alt="">
-                        <img src="img/team-05.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-14" alt="">
-                    </td>
-                    <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-blueColor w-fit text-white py-1 px-2  text-xs rounded-lg">In Progress</div></td>      
-                  </tr>
-                  <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">Bouba App</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">05 Sep 2021</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">Bouba</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">$500</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
-                        <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
-                        <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
-                    </td>
-                    <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-greenColor text-white py-1 px-2 w-fit text-xs rounded-lg">Completed</div></td>      
-                  </tr>
-                  <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">Ecommerce Store</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">22 May 2021</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">Otman</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">$900</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
-                        <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
-                        <img src="img/team-05.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
-                        <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-10" alt="">
-                    </td>
-                    <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-greenColor text-white py-1 px-2 w-fit text-xs rounded-lg">Completed</div></td>      
-                  </tr>
-                  <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">Otman Website</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">24 May 2021</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">Matto</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">$1900</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
-                        <img src="img/team-01.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
-                        <img src="img/team-05.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
-                        <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-10" alt="">
-                        <img src="img/team-03.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-14" alt="">
-                    </td>
-                    <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-redColor text-white py-1 px-2 w-fit text-xs rounded-lg">Rejected</div></td>      
-                  </tr>
-                  <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">Arena Application</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">01 Mar 2021</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">01 Mar 2021</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6">$2600</td>
-                    <td class="border-l border-solid border-gray-200 py-4 px-6 relative">
-                        <img src="img/team-05.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-2" alt="">
-                        <img src="img/team-02.png" class="w-8 border-2 border-solid border-white rounded-full absolute top-1/2 transform -translate-y-1/2 left-6" alt="">
-                    </td>
-                    <td class="py-4 px-6 border-x border-solid border-gray-200"><div class="bg-greenColor text-white py-1 px-2 w-fit text-xs rounded-lg">Completed</div></td>      
-                  </tr>
-                </tbody>
-              </table>
-          </div>
-        </div>
-        <!-- End Project  -->
-       </div>
-   </div>
-    <!-- End Content  -->
-</div>
+        <!-- End Content  -->
+    </div>
 </body>
 </html>
