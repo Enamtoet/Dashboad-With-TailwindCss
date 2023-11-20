@@ -148,6 +148,14 @@ transition:0.3s;
     transform: translateY(-50%);
 }
 /* End Reminders  */
+/* Start Table  */
+.project .responsive-table{
+    max-width:200px;
+
+}
+
+
+/* End Table  */
 /* Start Animation  */
 @keyframes change-color {
     from{

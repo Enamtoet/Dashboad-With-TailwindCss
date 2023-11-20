@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-bgray font-cairo">
-<div class="page flex justify-between">
+<div class=" page flex justify-between">
     <!-- Start Sidebar  -->
     <div class="sidebar p-3 w-16 custom-box-shadow bg-white md:w-56 md:p-5">
         <h3 class=" before:hidden after:hidden font-bold text-sm p-1 relative text-center mt-0 md:text-2xl md:before:block md:after:block">OTY</h3>
@@ -24,7 +24,7 @@
                 </a>
             </li>
             <li class="flex justify-center items-center text-sm  px-2 py-4  rounded-lg mb-2 transition duration-300 hover:hover:bg-backgroundColor md:px-8 md:py-1.5 md:justify-start">
-                <a href="">
+                <a href="setting.html">
                     <i class="fa-solid fa-gear fa-fw md:mr-3"></i>
                     <span class="hidden md:inline-block" >Settings</span>
                 </a>
@@ -475,10 +475,11 @@
             <!-- End Social Media  -->
         </div>
          <!-- Start Project  -->
-         <div class="Project bg-white rounded-2xl p-4 mt-4 ">
+         <div class="project bg-white rounded-2xl p-4 mt-4 ">
             <h2 class="font-bold text-2xl ">Projects</h2>
-            <table class="min-w-full  mt-5">
-                <thead class="  border border-solid border-gray-200">
+          <div class=" responsive-table overflow-x-scroll">
+            <table class="w-full mt-5">
+                <thead class=" border border-solid border-gray-200">
                   <tr>
                     <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Name</th>
                     <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Finish Date</th>
@@ -488,7 +489,7 @@
                     <th class="border-l border-solid border-gray-200 py-3 px-6 text-left bg-gray-100">Status</th>       
                   </tr>
                 </thead>
-                <tbody class="bg-white ">
+                <tbody class=" bg-white ">
                   <tr class="border-b border-solid border-gray-200 transition duration-3000 hover:bg-gray-50">
                     <td class="border-l border-solid border-gray-200 py-4 px-6">Ministry Wikipedia</td>
                     <td class="border-l border-solid border-gray-200 py-4 px-6">10 May 2022</td>
@@ -562,7 +563,7 @@
                   </tr>
                 </tbody>
               </table>
-
+          </div>
         </div>
         <!-- End Project  -->
        </div>
