@@ -15,6 +15,49 @@
 ::-webkit-scrollbar-thumb:hover{
     background-color: #0d69d5
 }
+/*  Start Simple Checkbox */
+.checkbox .widget-check{
+    --webkit-appearance: none;
+    appearance: none;
+
+}
+.checkbox label{
+    cursor: pointer;
+}
+.checkbox label::before,
+.checkbox label::after{
+    position: absolute;
+    left: 0;
+    top: calc(50% - 7px);
+    font-size: 12px;
+    height: 14px;
+    width: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkbox label::before{
+    content: "";
+    border: 2px solid #888;
+}
+.checkbox label::after{
+    font-family: "Font Awesome 6 Free";
+    content: "\f00c";
+    font-weight: 900;
+    background-color: #0075ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0) rotate(360deg);
+    transition: .4s;
+}
+.checkbox .widget-check:checked + label::after{
+    transform: scale(1);
+}
+
+/*  End Simple Checkbox */
+
 /* Start Toggle checkbox  */
 .toggle-checkbox{
     --webkit-appearance: none;
@@ -84,6 +127,10 @@
 .page ul li.active{
     background-color: #f6f6f6;
 }
+
+
+/*********************** Dashborad Page  *********************** */
+
 /* Dashborad Title  */
 .page .content h1:before,
 .page .content  h1:after{
@@ -192,11 +239,17 @@ transition:0.3s;
     transform: translateY(-50%);
 }
 /* End Reminders  */
-/* Start Table  */
+
+/*********************** Setting Page  *********************** */
+
+/* Start Social info  */
+.Social-media .box:focus-within > div i{
+    color: black;
+}
+/* End Social info  */
 
 
 
-/* End Table  */
 /* Start Animation  */
 @keyframes change-color {
     from{

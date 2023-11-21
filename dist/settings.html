@@ -101,8 +101,8 @@
                                 <h3 class="font-bold text-md">Website Control</h3>
                                 <span class="text-sm text-gray-400">Open/Close Website And Type The Reason</span>
                             </div>
-                            <label>
-                                <input class="toggle-checkbox" type="checkbox" checked>
+                            <label for="one">
+                                <input class="toggle-checkbox" type="checkbox" id="one" checked>
                                 <div class="toggle-switch"></div>
                             </label>
                         </div>
@@ -114,12 +114,12 @@
                         <h2 class="font-bold text-2xl">General Info</h2>
                         <span class="block text-greyColor mt-2 mb-4 text-sm">General Information About Your Account</span>
                         <form>
-                            <label class="mb-3 block text-gray-600">First Name</label>
+                            <label for="first-name" class="mb-3 block text-gray-600">First Name</label>
                             <input class="mb-4 p-2 text-sm w-full outline-none border border-solid border-gray-300 rounded-lg focus:placeholder-transparent" type="text" placeholder="First Name">
-                            <label class="mb-3 block text-gray-600">Last Name</label>
+                            <label for="Last-name" class="mb-3 block text-gray-600">Last Name</label>
                             <input class="mb-4 p-2 text-sm w-full outline-none border border-solid border-gray-300 rounded-lg focus:placeholder-transparent" type="text" placeholder="Last Name">
-                             <label class="mb-3 block text-gray-600">Email</label>
-                             <input class="mb-4  mr-2 p-2 text-sm w-full outline-none border border-solid border-gray-300 rounded-lg md:w-4/5 focus:placeholder-transparent" type="Email" placeholder="name@gmail.com" disabled>
+                             <label for="email" class="mb-3 block text-gray-600 ">Email</label>
+                             <input class="mb-4  mr-2 p-2 text-sm w-full outline-none border border-solid border-gray-300 rounded-lg md:w-4/5 cursor-no-drop focus:placeholder-transparent" type="Email" placeholder="name@gmail.com" disabled>
                              <a href="" class="bg-blueColor text-white text-sm w-fit mx-auto block py-1 px-2 rounded-lg text-center md:mx-0 md:inline-block">Change</a>
                         </form>              
                     </div>
@@ -140,8 +140,8 @@
                                 <h3 class="font-semibold">Two-Factor Authentication</h3>
                                 <span class="text-xs text-greyColor">Enable/Disable The Feature</span>
                             </div>
-                            <label>
-                                <input class="toggle-checkbox" type="checkbox" checked>
+                            <label for="two">
+                                <input class="toggle-checkbox" type="checkbox" id="two" checked>
                                 <div class="toggle-switch"></div>
                             </label>
                         </div> 
@@ -155,31 +155,31 @@
                     </div>
                     <!-- End Security Info  -->
                     <!-- Start Social Info  -->
-                    <div class=" bg-white rounded-2xl p-6">
+                    <div class="Social-media bg-white rounded-2xl p-6">
                         <h2 class="font-bold text-2xl">Social Info</h2>
                         <span class="block text-greyColor mt-2 mb-4 text-sm">Security Information About Your Account</span>
                         <!-- Twitter  -->
-                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                        <div class="box mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
                             <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-twitter text-greyColor"></i></div>
                             <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="Twitter Username">
                         </div>
                         <!-- Facebook  -->
-                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                        <div class="box mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
                             <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-facebook text-greyColor"></i></div>
                             <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="Facebook Username">
                         </div>
                         <!-- Instagram  -->
-                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                        <div class="box mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
                             <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-instagram text-greyColor"></i></div>
                             <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="Instagram Username">
                         </div>
                         <!-- linkedin  -->
-                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                        <div class="box mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
                             <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-linkedin text-greyColor"></i></div>
                             <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="linkedin Username">
                         </div>
                         <!-- pinterest  -->
-                        <div class="mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
+                        <div class="box mb-3 flex items-center overflow-hidden bg-gray-100 border border-solid border-gray-300 rounded-lg ">
                             <div class="py-2 px-3 bg-gray-100 border-r border-solid border-gray-300"><i class="fa-brands fa-pinterest text-greyColor"></i></div>
                             <input class="flex-1 bg-gray-100 text-sm ml-4 outline-none focus:placeholder-transparent" type="text" placeholder="pinterest Username">
                         </div>
@@ -187,13 +187,41 @@
                     </div>
                     <!-- End Social Info  -->
                     <!-- Start Widgets Control -->
-                    <div class=" bg-white rounded-2xl p-6">
+                    <div class="widget bg-white rounded-2xl p-6">
                         <h2 class="font-bold text-2xl">Widgets Control </h2>
-                        <span class="block text-greyColor mt-2 mb-4 text-sm">Show/Hide Widgets</span>
-                        <div>
-                            <input class="w-3" type="checkbox" checked>
-                            <label>Quick Draft</label>
+                        <span class="block text-greyColor mt-2 mb-7 text-sm">Show/Hide Widgets</span>
+
+                        <div class="checkbox mb-6">
+                            <input class="widget-check" type="checkbox" checked id="check1">
+                            <label class="pl-6 relative" for="check1">Quick Draft</label>
                         </div>
+
+                        <div class="checkbox mb-6">
+                            <input class="widget-check" type="checkbox" checked id="check2">
+                            <label class="pl-6 relative" for="check2">Yearly Targets</label>
+                        </div>
+
+                        <div class="checkbox mb-6">
+                            <input class="widget-check" type="checkbox" checked id="check3">
+                            <label class="pl-6 relative" for="check3">Tickets Statistics</label>
+                        </div>
+
+                        <div class="checkbox mb-6">
+                            <input class="widget-check" type="checkbox" checked id="check4">
+                            <label class="pl-6 relative" for="check4">Latest News</label>
+                        </div>
+
+                        <div class="checkbox mb-6">
+                            <input class="widget-check" type="checkbox"  id="check5">
+                            <label class="pl-6 relative" for="check5">Latest Tasks</label>
+                        </div>
+
+                        <div class="checkbox mb-6">
+                            <input class="widget-check" type="checkbox" checked id="check6">
+                            <label class="pl-6 relative" for="check6">Top Search Items</label>
+                        </div>
+
+                  
                     </div>
                     <!-- End Widgets Control  -->
                 </div>                 
