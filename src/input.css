@@ -29,7 +29,7 @@
     position: absolute;
     left: 0;
     top: calc(50% - 7px);
-    font-size: 12px;
+    font-size: 10px;
     height: 14px;
     width: 14px;
     border-radius: 4px;
@@ -39,6 +39,9 @@
 .checkbox label::before{
     content: "";
     border: 2px solid #888;
+}
+.checkbox label:hover::before{
+    border-color:  #0075ff;
 }
 .checkbox label::after{
     font-family: "Font Awesome 6 Free";
@@ -55,8 +58,47 @@
 .checkbox .widget-check:checked + label::after{
     transform: scale(1);
 }
-
 /*  End Simple Checkbox */
+
+/* Start Cercle Checkbok  */
+.backup .check-info .backup-check{
+    appearance: none;
+    --webkit-appearance:none
+}
+.backup .check-info label::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: calc(50% - 9px);
+    border: 2px solid #888 ;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+.backup .check-info label::after{
+    content: "";
+    position: absolute;
+    left:4px;
+    top: calc(50% - 5px);
+    background-color: #0075ff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .1s;
+}
+.backup .check-info .backup-check:checked + label::after{
+    transform: scale(1);
+}
+.backup .check-info .backup-check:checked + label::before{
+    border-color:#0075ff ;
+}
+.backup .check-info label:hover::before{
+    border-color:  #0075ff;
+
+}
+
+/* End Cercle Checkbok  */
 
 /* Start Toggle checkbox  */
 .toggle-checkbox{
@@ -247,6 +289,17 @@ transition:0.3s;
     color: black;
 }
 /* End Social info  */
+.backup .server-checkbox{
+    appearance: none;
+    --webkit-appearance:none
+}
+.backup .server-checkbox:checked + .server {
+    border-color: #0075ff;
+    color: #0075ff;
+}
+
+
+
 
 
 

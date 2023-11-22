@@ -588,6 +588,11 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -802,6 +807,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-end {
@@ -1339,7 +1348,7 @@ video {
   position: absolute;
   left: 0;
   top: calc(50% - 7px);
-  font-size: 12px;
+  font-size: 10px;
   height: 14px;
   width: 14px;
   border-radius: 4px;
@@ -1349,6 +1358,10 @@ video {
 .checkbox label::before{
   content: "";
   border: 2px solid #888;
+}
+
+.checkbox label:hover::before{
+  border-color:  #0075ff;
 }
 
 .checkbox label::after{
@@ -1369,6 +1382,54 @@ video {
 }
 
 /*  End Simple Checkbox */
+
+/* Start Cercle Checkbok  */
+
+.backup .check-info .backup-check{
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  --webkit-appearance:none
+
+}
+
+.backup .check-info label::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(50% - 9px);
+  border: 2px solid #888 ;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.backup .check-info label::after{
+  content: "";
+  position: absolute;
+  left:4px;
+  top: calc(50% - 5px);
+  background-color: #0075ff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: .1s;
+}
+
+.backup .check-info .backup-check:checked + label::after{
+  transform: scale(1);
+}
+
+.backup .check-info .backup-check:checked + label::before{
+  border-color:#0075ff ;
+}
+
+.backup .check-info label:hover::before{
+  border-color:  #0075ff;
+}
+
+/* End Cercle Checkbok  */
 
 /* Start Toggle checkbox  */
 
@@ -1588,6 +1649,19 @@ video {
 
 /* End Social info  */
 
+.backup .server-checkbox{
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  --webkit-appearance:none
+
+}
+
+.backup .server-checkbox:checked + .server {
+  border-color: #0075ff;
+  color: #0075ff;
+}
+
 /* Start Animation  */
 
 @keyframes change-color {
@@ -1739,6 +1813,10 @@ video {
     margin-right: 0px;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:mb-7 {
     margin-bottom: 1.75rem;
   }
@@ -1789,6 +1867,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 
   .md\:justify-start {
