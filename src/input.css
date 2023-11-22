@@ -166,7 +166,7 @@
     transform: translateX(-50%);
     border: 3px solid white;
 }
-.page ul li.active{
+.page ul .active{
     background-color: #f6f6f6;
 }
 
