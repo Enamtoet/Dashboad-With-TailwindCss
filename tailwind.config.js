@@ -27,7 +27,11 @@ module.exports = {
       // Add Fonts 
       fontFamily:{
         cairo:['Open Sans', "sans-serif"]
-      }
+      },
+      // Add Sizes 
+      minWidth: {
+        '250px': '230px',
+      },
     },
   },
   plugins: [
