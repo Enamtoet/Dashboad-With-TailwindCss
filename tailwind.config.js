@@ -31,7 +31,11 @@ module.exports = {
       // Add Sizes 
       minWidth: {
         '250px': '230px',
+        '400px': '400px',
       },
+      flexGrow: {
+        2: '2'
+      }
     },
   },
   plugins: [

@@ -297,11 +297,23 @@ transition:0.3s;
     border-color: #0075ff;
     color: #0075ff;
 }
-
-
-
-
-
+/*********************** Setting Page  *********************** */
+/* Toggle Switch Update  */
+.infos-box .info-box .toggle-switch{
+    height: 20px;
+}
+.infos-box .info-box .toggle-switch:before{
+    width: 15px;
+    height: 15px;
+    top: 2.5px;
+    left: 2.5px;
+    font-size: 10px;
+}
+.infos-box .info-box .toggle-checkbox:checked + .toggle-switch::before{
+    left: calc(100% - 15px - 2.5px)
+    
+    
+}
 
 /* Start Animation  */
 @keyframes change-color {

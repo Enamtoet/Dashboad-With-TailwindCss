@@ -91,9 +91,9 @@
                     <h1 class="relative font-semibold text-4xl before:bg-white before:w-2/3 after:bg-black after:w-2/6 after:left-0">Profile</h1> 
                 </div>
                 <!--End Dashborad  -->
-                <div class="flex items-center flex-col bg-white rounded-2xl lg:flex-row">
+                <div class="flex items-center flex-col bg-white rounded-2xl lg:flex-row mb-5">
                     <!-- Start Avatar Box  -->
-                    <div class="box p-6 text-center w-72 lg:border-r border-solid border-gray-100">
+                    <div class="box p-6 text-center w-72 ">
                         <img class="w-28 mx-auto mb-3" src="img/avatar.png" alt="">
                         <h3 class="font-bold">OTMANE TALABI</h3>
                         <span class="block text-gray-500 mb-3">Level 20</span>
@@ -111,8 +111,8 @@
                     </div>
                     <!-- End Avatar Box  -->
                     <!-- Start Info Box  -->
-                    <div class="infos-box flex-1">
-                        <div class="info-box p-4 flex flex-col flex-wrap text-center border-b border-solid border-gray-100 md:flex-row md:text-left md:hover:bg-gray-50">
+                    <div class="infos-box w-full">
+                        <div class="info-box p-4 flex flex-col flex-wrap text-center border-b  border-solid border-gray-100 md:flex-row md:text-left md:border-l md:hover:bg-gray-50">
                             <h3 class="text-gray-500 mb-3 text-lg w-full">General Information</h3>        
                                 <div class="pb-3 md:min-w-250px"><span class="text-gray-500">Full Name : </span><span>OTMAN OTY</span></div>
                                 <div class="pb-3 md:min-w-250px"><span class="text-gray-500">Gender : </span><span>Male</span></div>
@@ -122,7 +122,7 @@
                                     <div class="toggle-switch"></div>
                                 </label>
                         </div>                    
-                        <div class="info-box p-4 flex flex-col flex-wrap text-center border-b border-solid border-gray-100 md:flex-row md:text-left md:hover:bg-gray-50">
+                        <div class="info-box p-4 flex flex-col flex-wrap text-center border-b border-solid border-gray-100 md:flex-row md:text-left md:border-l md:hover:bg-gray-50">
                             <h3 class="text-gray-500 mb-3 text-lg w-full">Personal Information</h3>        
                                 <div class="pb-3 md:min-w-250px"><span class="text-gray-500">Email : </span><span>O@gmail.col</span></div>
                                 <div class="pb-3 md:min-w-250px"><span class="text-gray-500">Phone : </span><span>0648583958</span></div>
@@ -132,17 +132,17 @@
                                     <div class="toggle-switch"></div>
                                 </label>
                         </div>                    
-                        <div class="info-box p-4 flex flex-col flex-wrap text-center border-b border-solid border-gray-100 md:flex-row md:text-left md:hover:bg-gray-50">
+                        <div class="info-box p-4 flex flex-col flex-wrap text-center border-b border-solid border-gray-100 md:flex-row md:text-left md:border-l md:hover:bg-gray-50">
                             <h3 class="text-gray-500 mb-3 text-lg w-full">Job Information</h3>        
                                 <div class="pb-3 md:min-w-250px"><span class="text-gray-500">Title : </span><span>Full Stack Developer</span></div>
-                                <div class="pb-3 md:min-w-250px"><span class="text-gray-500">Programming Language : </span><span>Python</span></div>
+                                <div class="pb-3 md:min-w-250px"><span class="text-gray-500"> Language : </span><span>Python</span></div>
                                 <div class="pb-3 md:min-w-250px "><span class="text-gray-500">Years Of Experience : </span><span>+5</span></div>
                                 <label class="md:min-w-250px flex mx-auto md:mx-0" for="info2">
                                     <input class="toggle-checkbox" type="checkbox" id="info2" checked>
                                     <div class="toggle-switch"></div>
                                 </label>
                         </div>                    
-                        <div class="info-box p-4 flex flex-col flex-wrap text-center md:flex-row md:text-left md:hover:bg-gray-50">
+                        <div class="info-box p-4 flex flex-col flex-wrap text-center md:flex-row md:text-left md:border-l md:hover:bg-gray-50">
                             <h3 class="text-gray-500 mb-3 text-lg w-full">Billing Information</h3>        
                                 <div class="pb-3 md:min-w-250px"><span class="text-gray-500">Payment Method : </span><span>Paypal</span></div>
                                 <div class="pb-3 md:min-w-250px"><span class="text-gray-500">Email : </span><span>Email@website.com</span></div>
@@ -153,8 +153,97 @@
                                 </label>
                         </div>                    
                     </div>
-                    <!-- Start Info Box  -->
-
+                    <!-- End Info Box  -->              
+                </div>
+                <div class="flex gap-5 flex-col text-center md:text-left md:flex-row">
+                    <!-- Start Skills  -->
+                    <div class=" bg-white rounded-2xl p-6 flex-grow">
+                        <h2 class="font-bold text-2xl">My Skills</h2>
+                        <span class="block text-greyColor mt-2 mb-4 text-sm">Complete Skills List</span>
+                        <div class="box py-5 mb-3 border-b border-solid border-gray-200">
+                            <span class=" bg-gray-200 p-2 rounded-lg">HTML</span>
+                            <span class="bg-gray-200 p-2 rounded-lg">Pugjs</span>
+                            <span class="bg-gray-200 p-2 rounded-lg">HAML</span>
+                        </div>                                
+                        <div class="box py-5 mb-3 border-b border-solid border-gray-200">
+                            <span class="bg-gray-200 p-2 rounded-lg">CSS</span>
+                            <span class="bg-gray-200 p-2 rounded-lg">SASS</span>
+                            <span class="bg-gray-200 p-2 rounded-lg">Stylus</span>
+                        </div>                                
+                        <div class="box py-5 mb-3 border-b border-solid border-gray-200">
+                            <span class="bg-gray-200 p-2 rounded-lg">Javascript</span>
+                            <span class="bg-gray-200 p-2 rounded-lg">TypeScript</span>
+                        </div>                                
+                        <div class="box py-5 mb-3 border-b border-solid border-gray-200">
+                            <span class="bg-gray-200 p-2 rounded-lg">Vuejs</span>
+                            <span class="bg-gray-200 p-2 rounded-lg">Reactjs</span>
+                        </div>                                
+                        <div class="box py-5 mb-3 border-b border-solid border-gray-200">
+                            <span class="bg-gray-200 p-2 rounded-lg">Jest</span>
+                            <span class="bg-gray-200 p-2 rounded-lg">Jasmine</span>
+                        </div>                                
+                        <div class="box py-5 mb-3 border-b border-solid border-gray-200">
+                            <span class="bg-gray-200 p-2 rounded-lg">PHP</span>
+                            <span class="bg-gray-200 p-2 rounded-lg">Laravel</span>
+                        </div>                                
+                        <div class="box pt-5 ">
+                            <span class="bg-gray-200 p-2 rounded-lg">Python</span>
+                            <span class="bg-gray-200 p-2 rounded-lg">Django</span>
+                        </div>                                
+                    </div>   
+                    <!-- Start Skills  -->
+                    <!-- Start Activities  -->
+                     <!-- Start Skills  -->
+                     <div class=" bg-white rounded-2xl p-6 flex-grow-2">
+                        <h2 class="font-bold text-2xl">Latest Activities</h2>
+                        <span class="block text-greyColor mt-2 mb-4 text-sm">Latest Activities Done By The User</span>
+                        <div class="info-box py-6 flex flex-col items-center border-b border-solid border-gray-100  md:flex-row">
+                            <img class="w-20 md:mr-4 " src="img/activity-01 (1).png" alt="">
+                            <div class="flex-1 mb-3 md:mb-0">
+                                <h4 class="font-bold text-lg">Store</h4>
+                                <p class="text-gray-500 text-sm">Bought The Mastering Python Course</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">18:10</h4>
+                                <p class="text-gray-500 text-sm">Yesterday</p>
+                            </div>
+                        </div>
+                        <div class="info-box py-6 flex flex-col  items-center border-b border-solid border-gray-100  md:flex-row">
+                            <img class="w-20 md:mr-4" src="img/activity-02.png" alt="">
+                            <div class="flex-1">
+                                <h4 class="font-bold text-lg">Academy</h4>
+                                <p class="text-gray-500 text-sm">Got The PHP Certificate</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">12:00</h4>
+                                <p class="text-gray-500 text-sm">Yesterday</p>
+                            </div>
+                        </div>
+                        <div class="info-box py-6 flex flex-col  items-center border-b border-solid border-gray-100  md:flex-row">
+                            <img class="w-20 md:mr-4" src="img/activity-03.png" alt="">
+                            <div class="flex-1">
+                                <h4 class="font-bold text-lg">Badges</h4>
+                                <p class="text-gray-500 text-sm">Unlocked The 10 Skills Badge</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">20:10</h4>
+                                <p class="text-gray-500 text-sm">Yesterday</p>
+                            </div>
+                        </div>
+                        <div class="info-box py-6 flex flex-col  items-center md:flex-row">
+                            <img class="w-20 md:mr-4" src="img/activity-01 (1).png" alt="">
+                            <div class="flex-1">
+                                <h4 class="font-bold text-lg">Store</h4>
+                                <p class="text-gray-500 text-sm">Bought The Typescript Course</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">15:10</h4>
+                                <p class="text-gray-500 text-sm">Yesterday</p>
+                            </div>
+                        </div>
+                                              
+                    </div>   
+                     <!-- Start Activities  -->                       
                 </div>                 
             </div>
         </div>
