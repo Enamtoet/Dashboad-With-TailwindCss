@@ -33,6 +33,9 @@ module.exports = {
         '250px': '230px',
         '400px': '400px',
       },
+      minHeight: {
+        '200px': '200px',
+      },
       flexGrow: {
         2: '2'
       }
